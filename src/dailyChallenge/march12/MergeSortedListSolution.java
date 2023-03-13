@@ -1,4 +1,4 @@
-package dailyChallenge;
+package dailyChallenge.march12;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
