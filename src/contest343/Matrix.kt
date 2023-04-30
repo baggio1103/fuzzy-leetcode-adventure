@@ -3,7 +3,6 @@ package contest343
 fun firstCompleteIndex(arr: IntArray, mat: Array<IntArray>): Int {
     val m = mat.size
     val n = arr.size / m
-    println("($m $n)")
     val emptyMatrix = List(m) {
         List(n) { _ ->
             -1
