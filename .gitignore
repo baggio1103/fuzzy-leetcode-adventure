@@ -1,4 +1,5 @@
 .idea
 *.iml
 *.txt
-out
+/lib
+/out
