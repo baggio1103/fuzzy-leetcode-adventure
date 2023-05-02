@@ -5,5 +5,10 @@
 ### This is a repository with solutions and explanatios for [leetcode](https://leetcode.com/) contest and daily challenges.
 
 [Leetcode weekly contest 343](https://leetcode.com/contest/weekly-contest-343/)
--  [Determine the winner of a Bowling Game](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/contest343/Bowling.kt)
+-  
+- [Determine the winner of a Bowling Game](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/contest343/Bowling.kt)
 -  [First Completely Painted Row or Column](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/contest343/MatrixOptimized.kt)
+
+[Daily Challenges]()
+- 
+- [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/march14/RootLeafSum.kt)
