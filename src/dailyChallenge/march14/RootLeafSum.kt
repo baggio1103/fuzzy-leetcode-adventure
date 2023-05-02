@@ -9,7 +9,7 @@ class TreeNode(var value: Int) {
     }
 }
 
-class RooLeafSum {
+class RootLeafSum {
 
     fun sumNumbers(node: TreeNode?): Int {
         if (node == null) {
@@ -38,6 +38,6 @@ fun main() {
         }
         right = TreeNode(0)
     }
-    val rooLeafSum = RooLeafSum()
+    val rooLeafSum = RootLeafSum()
     println("Sum: ${rooLeafSum.sumNumbers(root)}")
 }
