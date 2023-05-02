@@ -13,7 +13,7 @@ class RootLeafSum {
 
     fun sumNumbers(node: TreeNode?): Int {
         if (node == null) {
-            return -0
+            return 0
         }
         val left = sumNumbers(node.left.apply {
             if (this != null) {
