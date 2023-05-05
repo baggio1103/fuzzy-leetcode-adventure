@@ -17,3 +17,5 @@
 - - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may2/Solution.kt)
 - [3rd May - Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)
 - - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may3/Solution.kt)
+- [4th May - Dota2 Senate](https://leetcode.com/problems/dota2-senate/description/)
+- - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/may4)
