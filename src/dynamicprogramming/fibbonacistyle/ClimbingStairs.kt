@@ -1,5 +1,6 @@
 package dynamicprogramming.fibbonacistyle
 
+import java.lang.IllegalArgumentException
 import kotlin.system.measureTimeMillis
 
 /** Fibbonaci Sequence */
@@ -7,6 +8,17 @@ class ClimbingStairs {
 
     fun climbStairs(value: Int): Int {
         return step(value, 0)
+    }
+    fun step(value: Int, n: Int, map: MutableMap<Int, Int> = mutableMapOf()): Int {
+        if (map.containsKey(n)) return map[n] ?: throw IllegalArgumentException("Value cannot be null")
+        if (value == n) {
+            return 1
+        }
+        if (value < n) {
+            return 0
+        }
+        map[n] = step(value, n + 1, map) + step(value, n + 2, map)
+        return map[n]!!
     }
 
     fun climbStairsIteratively(value: Int): Int {
@@ -22,18 +34,6 @@ class ClimbingStairs {
                 return values.last()
             }
         }
-    }
-
-    fun step(value: Int, n: Int, map: MutableMap<Int, Int> = mutableMapOf()): Int {
-        if (map.containsKey(n)) return map[n]!!
-        if (value == n) {
-            return 1
-        }
-        if (value < n) {
-            return 0
-        }
-        map[n] = step(value, n + 1, map) + step(value, n + 2, map)
-        return map[n]!!
     }
 
 }
@@ -68,11 +68,11 @@ fun main() {
     )
     println("\nComparison...")
     val recursiveApproach = measureTimeMillis {
-        println(climbingStairs.climbStairs(50))
+        println(climbingStairs.climbStairs(40))
     }
     println("Exec time of recursiveApproach(40): $recursiveApproach ms")
     val iterativeApproach = measureTimeMillis {
-        println(climbingStairs.climbStairsIteratively(50))
+        println(climbingStairs.climbStairsIteratively(40))
     }
     println("Exec time of iterativeApproach(40): $iterativeApproach ms")
 }
