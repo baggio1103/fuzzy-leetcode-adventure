@@ -22,3 +22,5 @@
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/?envType=study-plan-v2&id=dynamic-programming)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/ClimbingStairs.kt)
+- [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/?envType=study-plan-v2&id=dynamic-programming)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/FibonnaciNumber.kt)
