@@ -4,9 +4,10 @@ import kotlin.math.min
 
 class MinCostClimbingStairs {
 
-    fun minCostClimbingStairs(stairCosts: IntArray,
-                              index: Int = -1,
-                              map: MutableMap<Int, Int> = mutableMapOf()
+    fun minCostClimbingStairs(
+        stairCosts: IntArray,
+        index: Int = -1,
+        map: MutableMap<Int, Int> = mutableMapOf()
     ): Int {
         if (map.containsKey(index)) {
             return map[index] ?: throw IllegalArgumentException("Value cannot be null")

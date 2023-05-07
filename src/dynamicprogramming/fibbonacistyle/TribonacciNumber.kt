@@ -15,7 +15,10 @@ class TribonacciNumber {
         return tribonacci(n - 3) + tribonacci(n - 2) + tribonacci(n - 1)
     }
 
-    fun tribonnacciMemoized(n: Int, map: MutableMap<Int, Int> = mutableMapOf(0 to 0, 1 to 1, 2 to 1)): Int {
+    fun tribonnacciMemoized(
+        n: Int,
+        map: MutableMap<Int, Int> = mutableMapOf(0 to 0, 1 to 1, 2 to 1)
+    ): Int {
         if (map.containsKey(n)) {
             return map[n] ?: throw IllegalArgumentException("Value cannot be null")
         }
