@@ -24,3 +24,11 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/ClimbingStairs.kt)
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/?envType=study-plan-v2&id=dynamic-programming)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/FibonnaciNumber.kt)
+- [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/?envType=study-plan-v2&id=dynamic-programming)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/TribonacciNumber.kt)
+- [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&id=dynamic-programming)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/MinCostClimbingStairs.kt)
+
+[//]: # (- [Next problem &#40;Pattern&#41;]&#40;&#41;)
+
+[//]: # (  - [Solution]&#40;&#41;)
