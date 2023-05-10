@@ -21,6 +21,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may8/MatrixDiagonalSum.kt)
 - [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/may9)
+- [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may10/SpiralMatrix.kt)
 
 
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
