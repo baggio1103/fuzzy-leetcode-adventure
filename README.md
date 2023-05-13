@@ -23,6 +23,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/may9)
 - [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may10/SpiralMatrix.kt)
+- [Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/march12/MergeSortedListSolution.java)
 
 
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
