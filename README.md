@@ -17,14 +17,16 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may3/Solution.kt)
 - [4th May - Dota2 Senate](https://leetcode.com/problems/dota2-senate/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/may4)
-- [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)
+- [May 9 - Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may8/MatrixDiagonalSum.kt)
-- [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
+- [May 10 - Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/may9)
-- [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
+- [May 11 - Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may10/SpiralMatrix.kt)
-- [Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)
+- [May 12 - Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/march12/MergeSortedListSolution.java)
+- [May 15 - Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may15/SwappingNodes.kt)
 
 
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
@@ -40,3 +42,4 @@
 [//]: # (- [Next problem &#40;Pattern&#41;]&#40;&#41;)
 
 [//]: # (  - [Solution]&#40;&#41;)
+
