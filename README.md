@@ -27,7 +27,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/march12/MergeSortedListSolution.java)
 - [May 15 - Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may15/SwappingNodes.kt)
-
+- [May 16 - Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+  - [Solution]()
+- [May 17 - Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may17/MaximumTwinSum.kt)
 
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/?envType=study-plan-v2&id=dynamic-programming)
