@@ -9,32 +9,20 @@ class ListNode(var `val`: Int) {
 
 class SwappingNodes {
 
-
     fun swapNodes(head: ListNode?, k: Int): ListNode? {
         val nodeMap = nodes(head)
         val size = nodeMap.size
         val start = nodeMap[min(k, size - k + 1)]
         val finish = nodeMap[max(k, size - k + 1)]
-        println("-=-=-=-=-=-=-=-=-=")
-        nodeMap.forEach { (_, value) ->
-            print("${value.`val`} ")
-        }
-        println("/ K = $k \n-=-=-=-=-=-=-=-=-=")
         if (start == finish) {
             return head
         }
-        if (size == 2) {
-            start?.next = null
-            finish?.next = start
-            return finish
-        }
         val (startPrevIndex, startNextIndex) = Pair(min(size - k, k -1), min(k + 1, size - k + 2))
-
         val (finishPrevIndex, finishNextIndex) = Pair(
             max(size - k, k - 1),
             max(k + 1, size - k + 2)
         )
-        val isNeighbour = k == size - k
+        val isNeighbour = (size % 2 == 0) && ( k == size / 2 || k == size / 2 + 1)
         val (startPrev, startNext) = Pair(nodeMap[startPrevIndex], nodeMap[startNextIndex])
         val (finishPrev, finishNext) = Pair(nodeMap[finishPrevIndex], nodeMap[finishNextIndex])
         startPrev?.let {
@@ -55,7 +43,9 @@ class SwappingNodes {
             }
         }
         start?.let {
-            it.next = finishNext
+            if (!isNeighbour) {
+                it.next = finishNext
+            }
         }
         return if (k == 1 || k == size) finish else head
     }
@@ -71,135 +61,4 @@ class SwappingNodes {
         return nodeMap
     }
 
-}
-
-fun main() {
-    val swappingNodes = SwappingNodes()
-
-
-
-    printInfo(
-        swappingNodes.swapNodes(ListNode(10).also {
-            it.next = ListNode(25).also {
-                it.next = ListNode(35)
-            }
-        }, 2)
-    )
-    printInfo(
-        swappingNodes.swapNodes(
-            ListNode(7).also {
-
-                it.next = ListNode(9)
-                    .also {
-                        it.next = ListNode(6).also {
-                            it.next = ListNode(6).also {
-                                it.next = ListNode(7).also {
-                                    it.next = ListNode(8).also {
-                                        it.next = ListNode(3)
-                                            .also {
-                                                it.next = ListNode(0).also {
-                                                    it.next = ListNode(9).also {
-                                                        it.next = ListNode(5)
-                                                    }
-                                                }
-                                            }
-                                    }
-                                }
-                            }
-                        }
-                    }
-            }, 5
-        )
-    )
-
-    printInfo(
-        swappingNodes.swapNodes(ListNode(1).also {
-            it.next = ListNode(2).also {
-                it.next = ListNode(3).also {
-                    it.next = ListNode(4).also {
-                        it.next = ListNode(5)
-                    }
-                }
-            }
-        }, 1)
-    )
-    println("-=-=-=-=-=-=-=-=-=")
-    printInfo(
-        swappingNodes.swapNodes(
-            ListNode(1).also {
-                it.next = ListNode(2).also {
-                    it.next = ListNode(3).also {
-                        it.next = ListNode(4).also {
-                            it.next = ListNode(5)
-                        }
-                    }
-                }
-            }, 5
-        )
-    )
-
-    println("-=-=-=-=-=-=-=-=-=")
-    printInfo(swappingNodes.swapNodes(ListNode(10), 1))
-
-    println("-=-=-=-=-=-=-=-=-=")
-    printInfo(
-        swappingNodes.swapNodes(ListNode(10).also {
-            it.next = ListNode(25)
-        }, 1)
-    )
-
-    println("-=-=-=-=-=-=-=-=-=")
-    printInfo(swappingNodes.swapNodes(ListNode(1).also {
-        it.next = ListNode(2).also {
-            it.next = ListNode(3).also {
-                it.next = ListNode(4).also {
-                    it.next = ListNode(5)
-                }
-            }
-        }
-    }, 2))
-
-    println("-=-=-=-=-=-=-=-=-=")
-    printInfo(swappingNodes.swapNodes(ListNode(1).also {
-        it.next = ListNode(2).also {
-            it.next = ListNode(3).also {
-                it.next = ListNode(4).also {
-                    it.next = ListNode(5)
-                }
-            }
-        }
-    }, 3))
-//
-//    printInfo(
-//        swappingNodes.swapNodes(ListNode(1), 1)
-//    )
-//
-//    println("-=-=-=-=-=-=-=-=-=")
-//
-//    printInfo(
-//        swappingNodes.swapNodes(ListNode(1).also {
-//            it.next = ListNode(2).also {
-//                it.next = ListNode(3)
-//            }
-//        }, 1)
-//    )
-}
-
-fun printInfo(node: ListNode?) {
-    var currentNode = node
-    while (currentNode != null) {
-        println(currentNode.`val`)
-        currentNode = currentNode.next
-    }
-}
-
-fun listNode(array: IntArray): ListNode {
-    val head = ListNode(array[0])
-    var node = ListNode(array[1])
-    for (i in 2..array.size) {
-        val newNode = ListNode(array[i])
-        node.next = newNode
-        node = newNode
-    }
-    return head
 }
