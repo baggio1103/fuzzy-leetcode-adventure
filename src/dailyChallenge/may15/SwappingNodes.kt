@@ -76,6 +76,8 @@ class SwappingNodes {
 fun main() {
     val swappingNodes = SwappingNodes()
 
+
+
     printInfo(
         swappingNodes.swapNodes(ListNode(10).also {
             it.next = ListNode(25).also {
@@ -191,3 +193,13 @@ fun printInfo(node: ListNode?) {
     }
 }
 
+fun listNode(array: IntArray): ListNode {
+    val head = ListNode(array[0])
+    var node = ListNode(array[1])
+    for (i in 2..array.size) {
+        val newNode = ListNode(array[i])
+        node.next = newNode
+        node = newNode
+    }
+    return head
+}
