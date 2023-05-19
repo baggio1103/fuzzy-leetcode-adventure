@@ -14,6 +14,13 @@ class BrainPower {
         return map.values.maxOf { it }
     }
 
+    fun points(questions: Array<IntArray>, current: Int = 0, next: Int): Long {
+        if (current >= questions.size || next >= questions.size) {
+            return 0
+        }
+        return 1
+    }
+
 }
 
 fun main() {
@@ -38,5 +45,6 @@ fun main() {
     println(brainPower.mostPoints(questionsTwo))
 
 //    [[21,5],[92,3],[74,2],[39,4],[58,2],[5,5],[49,4],[65,3]]
+// Output: 157
 
 }
