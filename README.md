@@ -28,7 +28,7 @@
 - [May 15 - Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may15/SwappingNodes.kt)
 - [May 16 - Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
-  - [Solution]()
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may16/SwappingNodesInPairs.kt)
 - [May 17 - Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may17/MaximumTwinSum.kt)
 
