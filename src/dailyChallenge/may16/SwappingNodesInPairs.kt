@@ -10,11 +10,16 @@ class SwappingNodesInPairs {
         val nodeMap = nodesAsList(head)
         val size = nodeMap.keys.size
         for (i in 1..size step 2 ) {
+            if (i == size) {
+               return nodeMap[1]
+            }
             val (nodePrev, node, nodeNext) = Triple(
                 nodeMap[i - 1],
                 nodeMap[i],
                 nodeMap[i + 1]
             )
+
+            // 1 2 3
             var tempNode: ListNode? = null
             nodePrev?.let {
                 it.next = nodeNext
@@ -26,8 +31,12 @@ class SwappingNodesInPairs {
             node?.let {
                 it.next = tempNode
             }
-            nodeMap[i] = nodeNext!!
-            nodeMap[i + 1] = node!!
+            nodeNext?.let {
+                nodeMap[i] = it
+            }
+            node?.let {
+                nodeMap[i + 1] = it
+            }
         }
         return nodeMap[1]
     }
@@ -47,10 +56,26 @@ class SwappingNodesInPairs {
 }
 
 fun main() {
-    nodeFromArray(intArrayOf(1, 2, 3, 4))
     val swappingNodesInPairs = SwappingNodesInPairs()
-    swappingNodesInPairs.swapPairs(
-     head = nodeFromArray(intArrayOf(1, 2, 3, 4))
+    printInfo(
+        swappingNodesInPairs.swapPairs(
+            head = nodeFromArray(intArrayOf(1, 2, 3, 4))
+        )
+    )
+
+    printInfo(
+        swappingNodesInPairs.swapPairs(
+            nodeFromArray(
+                intArrayOf(1, 2, 3)
+            )
+        )
+    )
+
+
+    printInfo(
+        swappingNodesInPairs.swapPairs(
+            (ListNode(1))
+        )
     )
 }
 
@@ -73,5 +98,5 @@ fun printInfo(head: ListNode?) {
         print("${node.`val`} ")
         node = node.next
     }
-    println("")
+    println("\n-=-=-=-=-=-=-=-=-=")
 }
