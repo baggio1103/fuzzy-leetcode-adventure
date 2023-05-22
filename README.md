@@ -31,6 +31,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may16/SwappingNodesInPairs.kt)
 - [May 17 - Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may17/MaximumTwinSum.kt)
+- [May 22 - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/may22)
 
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/?envType=study-plan-v2&id=dynamic-programming)
