@@ -3,70 +3,50 @@ package dailyChallenge.may18
 class SmallestNumberOfVertices {
 
     fun findSmallestSetOfVertices(n: Int, edges: List<List<Int>>): List<Int> {
-        val originalNodeSet = List(n) {
-                i -> i
-        }.toHashSet()
-        if (edges.size == 1) {
-            return listOf(edges[0][0])
-        }
-        val map = traverse(edges)
-        println("Map: $map")
-        map.forEach { (key, values) ->
-            values.forEach {
-                if (it != key) {
-                    map[it]?.let { elements ->
-                        map[key] = (values + (elements) + key) as MutableSet<Int>
+        val nodeMap = mutableMapOf<Int, HashSet<Int>>()
+        edges.forEach { edge ->
+            if (edge[0] == 3 && edge[1] == 4) {
+                println(findNodeAmongValues(nodeMap, edge[0]))
+                println(findKey(nodeMap, edge[1]))
+            }
+            findNodeAmongValues(nodeMap, edge[0])?.let { index ->
+                findKey(nodeMap, edge[1])?.let {
+
+                }?: run {
+                    nodeMap[index]?.add(edge[1])
+                }
+            } ?: run {
+                findKey(nodeMap, edge[1])?.let { index ->
+                    val values = nodeMap[index] ?: throw IllegalArgumentException("Exception")
+                    val newHashSet = HashSet<Int>(1 + values.size)
+                    values.let {
+                        newHashSet.addAll(it)
                     }
+                    newHashSet.addAll(values)
+                    newHashSet.add(edge[1])
+                    nodeMap[edge[0]] = HashSet(newHashSet)
+                    nodeMap.remove(edge[1])
+                } ?: run {
+                    val hashSet = HashSet<Int>()
+                    hashSet.add(edge[1])
+                    nodeMap[edge[0]] = hashSet
                 }
             }
         }
-        println("After manipulation: $map")
-        map.forEach { (node, vertices) ->
-            if (vertices.size == originalNodeSet.size) {
-                return listOf(node)
-            }
-        }
-        var nodePair = Pair(mutableListOf<Int>(), mutableSetOf<Int>())
-        map.forEach { (key, nodeSet) ->
-            if (nodeSet.size > nodePair.second.size) {
-                nodePair = Pair(mutableListOf(key), nodeSet)
-            }
-        }
-        val subtract = originalNodeSet.subtract(nodePair.second).toList()
-        subtract.forEach { subtractNode ->
-            map[subtractNode]?.let {
-                nodePair.first.add(subtractNode)
-                nodePair.second.addAll(
-                    it
-                )
-            } ?: kotlin.run {
-                nodePair.first.add(subtractNode)
-            }
-            if (nodePair.second.size == originalNodeSet.size) {
-                return nodePair.first
-            }
-        }
-        return nodePair.first
+        return nodeMap.keys.toList()
     }
 
-    private fun traverse(
-        edges: List<List<Int>>, index: Int = 0, keyIndex: Int = edges[0][0],
-        map: MutableMap<Int, MutableSet<Int>> = mutableMapOf()
-    ): MutableMap<Int, MutableSet<Int>> {
-        if (index > edges.lastIndex) {
-            return mutableMapOf()
+    private fun findNodeAmongValues(map: MutableMap<Int, HashSet<Int>>, value: Int): Int? {
+        map.forEach { (key, values) ->
+            if (key == value || values.contains(value)) {
+                return key
+            }
         }
-        map[keyIndex]?.add(edges[index][1]) ?: run {
-            map[keyIndex] = mutableSetOf(edges[index][1])
-        }
-        if (index == edges.lastIndex) {
-            return mutableMapOf()
-        }
-        if (edges[index][1] == edges[index + 1][0]) {
-            traverse(edges, index + 1, keyIndex, map)
-        }
-        traverse(edges, index + 1, edges[index + 1][0], map)
-        return map
+        return null
+    }
+
+    private fun findKey(map: MutableMap<Int, HashSet<Int>>, value: Int): Int? {
+        return if (map[value] != null) value else null
     }
 
 }
