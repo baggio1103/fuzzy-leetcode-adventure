@@ -62,6 +62,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/ReverseList.kt)
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/AddTwoNumbers.kt)
+## [Binary Search]()
+- [Search a 2D Matrix](https://leetcode.com/problems/stone-game-ii/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/Search2dMatrix.kt)
+
 
 [//]: # (- [Next problem]&#40;&#41;)
 
