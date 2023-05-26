@@ -7,7 +7,7 @@
 ## [Leetcode weekly contest 343](https://leetcode.com/contest/weekly-contest-343/)
 - [Determine the winner of a Bowling Game](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/contest343/Bowling.kt)
 -  [First Completely Painted Row or Column](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/contest343/MatrixOptimized.kt)
-
+---
 ## [Daily challenges]()
 - [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) 
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/march14/RootLeafSum.kt)
@@ -38,7 +38,7 @@
 - [May 23 - Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may23/KthLargestElement.kt)
 
-
+---
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/?envType=study-plan-v2&id=dynamic-programming)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/ClimbingStairs.kt)
@@ -50,6 +50,20 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/MinCostClimbingStairs.kt)
 
 [//]: # (- [Next problem &#40;Pattern&#41;]&#40;&#41;)
+
+[//]: # (  - [Solution]&#40;&#41;)
+
+---
+## [Yandex interview preparation guide]()
+### [LinkedList]()
+- [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/HasListCycle.kt)
+- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/ReverseList.kt)
+- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/AddTwoNumbers.kt)
+
+[//]: # (- [Next problem]&#40;&#41;)
 
 [//]: # (  - [Solution]&#40;&#41;)
 
