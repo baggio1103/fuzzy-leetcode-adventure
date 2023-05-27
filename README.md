@@ -63,8 +63,16 @@
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/AddTwoNumbers.kt)
 ## [Binary Search]()
+- [Basic Binary Search](https://leetcode.com/problems/binary-search/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/BinarySearch.kt)
+- [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/GuessNumber.kt)
 - [Search a 2D Matrix](https://leetcode.com/problems/stone-game-ii/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/Search2dMatrix.kt)
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/BinarySearchRotated.kt)
+- [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/BinarySearchRotatedII.kt)
 
 
 [//]: # (- [Next problem]&#40;&#41;)
