@@ -73,6 +73,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/BinarySearchRotated.kt)
 - [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/BinarySearchRotatedII.kt)
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/FindMinimumInRotatedArray.kt)
 
 
 [//]: # (- [Next problem]&#40;&#41;)
