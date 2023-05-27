@@ -1,21 +1,19 @@
 package binarysearch
 
-import kotlin.math.max
-
 class BinarySearchRotated {
 
-    fun search(array: IntArray, target: Int, begin: Int = 0, end: Int = array.lastIndex): Boolean {
+    fun search(array: IntArray, target: Int, begin: Int = 0, end: Int = array.lastIndex): Int {
         if (begin > end) {
-            return false
+            return -1
         }
         val middle = (begin + end) / 2
-        val result = binarySearch(array, target, begin, end)
-        println("Begin:$begin middle:$middle, end: $end, result: $result")
-        if (result == 1) {
-            return true
+        val index = binarySearch(array, target, begin, end)
+        if (index != -1) {
+            return index
         }
-        if (search(array, target, begin, middle - 1)) {
-            return true
+        val leftSubArrayIndex = search(array, target, begin, middle - 1)
+        if (leftSubArrayIndex != -1) {
+            return leftSubArrayIndex
         }
         return search(array, target, middle + 1, end)
     }
@@ -26,7 +24,7 @@ class BinarySearchRotated {
         while (begin <= end) {
             val middle = (begin  + end) / 2
             if (array[middle] == target) {
-                return 1
+                return middle
             }
             if (array[middle] > target) {
                 end = middle - 1
@@ -38,31 +36,36 @@ class BinarySearchRotated {
         return -1
     }
 
-
 }
 
 fun main() {
     val search = BinarySearchRotated()
-    search.search(intArrayOf(
-        0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-    ),
-        5)
-        .let { println(it) }
+    search.search(
+        intArrayOf(
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+        ),
+        5
+    )
+        .let { println("Result: $it") }
 
 
     search.search(
         intArrayOf(
-        7, 8, 9, 0, 1, 2, 3, 4, 5, 6,
-    ),
-        8)
-        .let { println(it) }
+            7, 8, 9, 0, 1, 2, 3, 4, 5, 6,
+        ),
+        8
+    )
+        .let { println("Result: $it") }
 
     println(
-        search.binarySearch(
-            intArrayOf(
-                7, 8, 9, 0, 1, 2, 3, 4, 5, 6,
-            ),
-            8, 0, 9)
-        )
+        "Result: ${
+            search.binarySearch(
+                intArrayOf(
+                    7, 8, 9, 0, 1, 2, 3, 4, 5, 6,
+                ),
+                8, 0, 9
+            )
+        }"
+    )
 
 }
