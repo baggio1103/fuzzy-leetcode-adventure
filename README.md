@@ -62,7 +62,7 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/ReverseList.kt)
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/AddTwoNumbers.kt)
-## [Binary Search]()
+### [Binary Search]()
 - [Basic Binary Search](https://leetcode.com/problems/binary-search/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/BinarySearch.kt)
 - [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
@@ -76,8 +76,15 @@
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/FindMinimumInRotatedArray.kt)
 
+### [Stack]()
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/queuestack)
+
+
+
+[//]: # (- []&#40;&#41;)
+[//]: # (  - [Solution]&#40;&#41;)
 
 [//]: # (- [Next problem]&#40;&#41;)
-
 [//]: # (  - [Solution]&#40;&#41;)
 
