@@ -17,14 +17,7 @@ class GuessGame {
         var begin = 1
         var end = n
         while (begin <= end) {
-            val guess = if (begin == 1 || end == 1) {
-                (begin + end) / 2
-            } else if (begin == end) {
-                begin
-            }
-            else {
-                begin / 2 + end / 2
-            }
+            val guess = begin + (end - begin) / 2
             val response = guess(guess, pickedNumber)
             if (response == 0) {
                 return guess
