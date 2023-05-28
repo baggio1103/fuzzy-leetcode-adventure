@@ -92,6 +92,10 @@
 - [Single Number](https://leetcode.com/problems/single-number/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/bitwise/SingleNumber.kt)
 
+### [Sorting]()
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/sorting/MergeInterval.kt)
+
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
 
