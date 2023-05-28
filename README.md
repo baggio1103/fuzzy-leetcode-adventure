@@ -80,7 +80,17 @@
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/queuestack)
 
+### [HashMap || HashTable]()
+- [Two sum](https://leetcode.com/problems/two-sum/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/hashtable/TwoSum.kt)
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/hashtable/IsAnagram.kt)
+- [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/hashtable/AllAnagramsInString.kt)
 
+### [Bitwise Operations]()
+- [Single Number](https://leetcode.com/problems/single-number/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/bitwise/SingleNumber.kt)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
