@@ -17,7 +17,7 @@ public class Demo {
                         FIVE_THOUSAND
                         )
         );
-        atmOne.getCash(1050L);
+        atmOne.getCash(100000L);
         atmOne.getCash(1050L);
 
         var atmTwo = new ATM(
@@ -26,6 +26,11 @@ public class Demo {
         atmTwo.getCash(200L);
         atmTwo.getCash(250L);
         atmTwo.getCash(250L);
+
+        var atmThree = new ATM(
+                List.of(HUNDRED, HUNDRED,HUNDRED, HUNDRED, HUNDRED, HUNDRED)
+        );
+        atmThree.getCash(600L);
     }
 
 }

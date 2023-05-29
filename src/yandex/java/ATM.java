@@ -19,34 +19,37 @@ import java.util.stream.Collectors;
  */
 public class ATM {
 
-      private final Map<Note, Long> currencyMap;
+      private final Map<Note, Long> noteMap;
 
       private Long overallCash;
 
-      public ATM(List<Note> currencies) {
-            this.currencyMap = new TreeMap<>(
+      public ATM(List<Note> notes) {
+            this.noteMap = new TreeMap<>(
                     Comparator.comparingLong(Note::value).reversed()
             );
-            currencyMap.putAll(
-                    currencies.stream().collect(Collectors.groupingBy(
+            noteMap.putAll(
+                    notes.stream().collect(Collectors.groupingBy(
                             Function.identity(),
                             Collectors.counting()
                     ))
             );
-            overallCash = currencies.stream().reduce(0L, (a, b) -> a + b.value(), Long::sum);
+            overallCash = notes.stream().reduce(0L, (a, b) -> a + b.value(), Long::sum);
             System.out.printf("""
                     ATM initialized -> overallSum: %d, currencies: %s
-                    """, overallCash, currencyMap);
+                    """, overallCash, noteMap);
       }
 
       public Long getCash(Long value) {
             var cash = 0L;
             if (overallCash < value) {
-                  System.out.printf("ATM has no required amount - overallCash: %d, required:%d", overallCash, value);
+                  System.out.printf("""
+                                  ATM has no required amount - overallCash: %d, required:%d
+                                  """,
+                          overallCash, value);
                   return 0L;
             }
-            var withdrawalCurrenciesMap = new HashMap<Note, Long>();
-            for (Map.Entry<Note, Long> entry : currencyMap.entrySet()) {
+            var withdrawnNotesMap = new HashMap<Note, Long>();
+            for (Map.Entry<Note, Long> entry : noteMap.entrySet()) {
                   var note = entry.getKey();
                   var count = entry.getValue();
                   if (note.value() <= value) {
@@ -56,27 +59,24 @@ public class ATM {
                               }
                               cash += note.value();
                               count--;
-                              currencyMap.put(note, count);
-                              withdrawalCurrenciesMap.put(note, count + 1);
+                              noteMap.put(note, count);
+                              withdrawnNotesMap.put(note, entry.getValue());
                               if (cash == value) {
                                     overallCash -= cash;
                                     System.out.printf("""
                                             Cash being withdrawn: %d
-                                            Overall cash left: %d, currencies left: %s
-                                            """, cash, overallCash, currencyMap);
+                                            Overall cash left: %d, notes left: %s                                   \s
+                                            """, cash, overallCash, noteMap);
                                     return cash;
                               }
                         }
                   }
             }
-            withdrawalCurrenciesMap.forEach( (note, count) -> {
-                  currencyMap.put(note,
-                          currencyMap.get(note) + count);
-            });
+            noteMap.putAll(withdrawnNotesMap);
             System.out.printf("""
                     ATM cannot issue the required amount: %d
-                    Overall cash left: %d, currencies left: %s
-                    """, value, overallCash, currencyMap);
+                    Overall cash left: %d, notes left: %s
+                    """, value, overallCash, noteMap);
             return 0L;
       }
 
