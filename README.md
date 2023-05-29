@@ -37,6 +37,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/may22)
 - [May 23 - Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may23/KthLargestElement.kt)
+- [Design Parking System](https://leetcode.com/problems/design-parking-system/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may29/ParkingSystem.kt)
 
 ---
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
