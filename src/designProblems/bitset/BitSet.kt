@@ -1,51 +1,74 @@
 package designProblems.bitset
 
-class Bitset(size: Int) {
+class Bitset(private val size: Int) {
 
-    private val memory = IntArray(size)
+    private var count = 0
+
+    private var zeroArray = IntArray(size)
+
+    private var oneArray = List(size) {
+        1
+    }.toIntArray()
+
+    private var zeroArrayStringBuilder = StringBuilder(
+        zeroArray.joinToString(separator = "") { "$it" }
+    )
+
+    private var oneArrayStringBuilder = StringBuilder(
+        oneArray.joinToString(separator = "") { "$it" }
+    )
+
 
     fun fix(index: Int) {
-        if (memory[index] == 1) {
+        if (zeroArray[index] == 1) {
             return
         }
-        memory[index] = 1
+        zeroArray[index] = 1
+        zeroArrayStringBuilder.setCharAt(index, '1')
+
+        oneArray[index] = 0
+        oneArrayStringBuilder.setCharAt(index, '0')
+        count++
     }
 
     fun unfix(index: Int) {
-        if (memory[index] == 0) {
+        if (zeroArray[index] == 0) {
             return
         }
-        memory[index] = 0
+        zeroArray[index] = 0
+        zeroArrayStringBuilder.setCharAt(index, '0')
+
+        oneArray[index] = 1
+        oneArrayStringBuilder.setCharAt(index, '1')
+
+        count--
     }
 
     fun flip() {
-        memory.forEachIndexed { index, value ->
-            if (value == 0) {
-                memory[index] = 1
-            } else {
-                memory[index] = 0
-            }
-        }
+        val tempArray = zeroArray
+        zeroArray = oneArray
+        oneArray = tempArray
+        count = size - count
+
+        val tempString = zeroArrayStringBuilder
+        zeroArrayStringBuilder = oneArrayStringBuilder
+        oneArrayStringBuilder = tempString
     }
 
     fun all(): Boolean {
-       return memory.all {
-            it == 0
-        }
+       return count == size
     }
 
     fun one(): Boolean {
-        return memory.any {
-            it == 1
-        }
+        return count > 0
     }
 
     fun count(): Int {
-        return memory.count { it == 1 }
+        return count
     }
 
     override fun toString(): String {
-        return memory.joinToString(separator = "") {"$it" }
+        return zeroArrayStringBuilder.toString()
     }
 
 }

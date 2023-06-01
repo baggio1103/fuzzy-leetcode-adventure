@@ -2,6 +2,7 @@ package designProblems.bitset
 
 fun main() {
     val bitset = Bitset(5)
+    println("-=-=-=-=-=BitSetOne-=-=-=-=-=")
     bitset.fix(3)
     bitset.fix(1)
     bitset.flip()
@@ -50,12 +51,5 @@ fun main() {
     )
     bitsetTwo.fix(0)
     bitsetTwo.unfix(0)
-
-//    ["Bitset","flip","unfix - 1","all",
-//        "fix - 1","fix - 1","unfix - 1","all","count",
-//        "toString","toString",
-//        "toString","unfix 0","flip"
-//        ,"all","unfix 0","one","one",
-//        "all","fix 0 ","unfix 0"]
 
 }
