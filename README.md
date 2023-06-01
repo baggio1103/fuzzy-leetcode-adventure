@@ -109,3 +109,7 @@
 [//]: # (- [Next problem]&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
 
+---
+### [Designing Challenges]()
+- [Design Bitset](https://leetcode.com/problems/design-bitset/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/designProblems/bitset/BitSet.kt)
