@@ -43,6 +43,12 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may30/MyHashSet.kt)
 - [May 31 Design Underground System](https://leetcode.com/problems/design-underground-system/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may31/UndergroundSystem.kt)
+- [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+  - [Solution]()
+- [Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)
+  - [Solution]()
+- [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)
+  - [Solution]()
 
 
 ---
