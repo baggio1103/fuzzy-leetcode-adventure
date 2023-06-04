@@ -47,9 +47,9 @@
   - [Solution]()
 - [June 2 Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)
   - [Solution]()
-- [June 3Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)
+- [June 3 Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)
   - [Solution]()
-- [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [June 4 Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
   - [Solution]()
 
 
