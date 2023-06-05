@@ -50,8 +50,9 @@
 - [June 3 Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)
   - [Solution]()
 - [June 4 Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
-  - [Solution]()
-
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june4/NumberOfProvinces.kt)
+- [June 5 Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june5/IsStraightLine.kt)
 
 ---
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
