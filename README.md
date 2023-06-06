@@ -53,6 +53,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june4/NumberOfProvinces.kt)
 - [June 5 Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june5/IsStraightLine.kt)
+- [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/submissions/965418270/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june6/ArithmeticProgression.kt)
 
 ---
 ## [Dynamic Programming](https://leetcode.com/studyplan/dynamic-programming/)
