@@ -72,6 +72,12 @@
 - [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&id=dynamic-programming)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/MinCostClimbingStairs.kt)
 
+---
+## [Sliding Window]()
+- [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
+  - [Approach](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/solutions/3610614/easy-implementation-of-sliding-window-algorithm/)
+  - [Solution]()
+
 [//]: # (- [Next problem &#40;Pattern&#41;]&#40;&#41;)
 
 [//]: # (  - [Solution]&#40;&#41;)
