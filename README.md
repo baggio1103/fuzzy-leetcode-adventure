@@ -43,7 +43,7 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may30/MyHashSet.kt)
 - [May 31 - Design Underground System](https://leetcode.com/problems/design-underground-system/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/may31/UndergroundSystem.kt)
-- [June 1 - Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- [June 1 - The shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
   - [Solution]()
 - [June 2 - Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)
   - [Solution]()
@@ -57,7 +57,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june6/ArithmeticProgression.kt)
 - [June 7 - Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june7/MinimumFlip.kt)
-
+- [June 8 - Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/june/june8)
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
 
