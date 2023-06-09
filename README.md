@@ -59,6 +59,9 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june7/MinimumFlip.kt)
 - [June 8 - Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/june/june8)
+- [June 9 - Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june9/SmallestLetter.kt)
+
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
 
