@@ -3,7 +3,7 @@ package dailyChallenge.june.june9
 class SmallestLetter {
 
     fun nextGreatestLetter(letters: CharArray, target: Char): Char {
-        letters.forEach {char ->
+        letters.forEach { char ->
             if (char > target) {
                 return char
             }
