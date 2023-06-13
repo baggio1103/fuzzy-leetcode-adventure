@@ -62,7 +62,7 @@
 - [June 9 - Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june9/SmallestLetter.kt)
 - [June 11 - Snapshot Array](https://leetcode.com/problems/snapshot-array/)
-  - [Solution]()
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june11/SnapshotArray.kt)
 - [June 12 - Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june12/SummaryRange.kt)
 
