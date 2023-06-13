@@ -34,11 +34,12 @@ class SummaryRange {
 
 fun main() {
     val summaryRange = SummaryRange()
+
     println(summaryRange.summaryRanges(
         intArrayOf(0,1,2,4,5,7)
     ))
+
     println(summaryRange.summaryRanges(
         intArrayOf(0,2,3,4,6,8,9)
     ))
-
 }
