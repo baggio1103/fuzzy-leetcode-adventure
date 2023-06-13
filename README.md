@@ -65,7 +65,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june11/SnapshotArray.kt)
 - [June 12 - Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june12/SummaryRange.kt)
-
+- [June 13 - Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june13/Solution.kt)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
