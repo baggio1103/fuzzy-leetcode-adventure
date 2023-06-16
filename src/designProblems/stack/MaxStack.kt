@@ -15,7 +15,7 @@ class MaxStack<T: Comparable<T>> : Stack<T>() {
             return item
         }
         val currentMax = maxStack.peek()
-        if (item > currentMax) {
+        if (item >= currentMax) {
             maxStack.push(item)
         }
         stack.push(item)

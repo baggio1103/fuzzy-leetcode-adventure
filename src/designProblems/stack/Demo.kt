@@ -5,6 +5,11 @@ fun main() {
     exampleOne()
     println("-=-=-=-=-=-=-=-=")
     exampleTwo()
+    println("-=-=-=-=-=-=-=-=")
+    exampleThree()
+    val aPair = Pair("1", 12345)
+    val bPair = Pair("1", 12345)
+    println(aPair === bPair)
 }
 
 fun exampleOne() {
@@ -39,4 +44,14 @@ fun exampleTwo() {
     println(stack.max()) // 9
     stack.pop()
     println(stack.max()) // 6
+}
+
+fun exampleThree() {
+    val stack = MaxStack<Int>()
+    stack.push(5)
+    stack.push(0)
+    stack.push(5)
+    println(stack.max()) // 5
+    stack.pop()
+    println(stack.max()) // 5
 }
