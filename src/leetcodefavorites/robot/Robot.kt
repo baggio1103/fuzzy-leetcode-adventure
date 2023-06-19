@@ -1,5 +1,7 @@
 package leetcodefavorites.robot
 
+import java.io.File
+
 data class Coordinate(
     var x: Int = 0,
     var y: Int = 0
@@ -7,47 +9,73 @@ data class Coordinate(
 
 class Robot {
 
-    fun walk(steps: Int) {
+    fun defineCoordinate(steps: Int): Coordinate {
         val startPoint = Coordinate()
+        var movement = 0
+        var turns = 0
+        while (true) {
+            turns++
+            left {
+                repeat(turns) {
+                    if (movement == steps) {
+                        println(startPoint)
+                        return startPoint
+                    }
+                    movement++
+                    startPoint.x--
+                }
+            }
 
-        left {
+            down {
+                repeat(turns) {
+                    if (movement == steps) {
+                        println(startPoint)
+                        return startPoint
+                    }
+                    movement++
+                    startPoint.y--
+                }
+            }
+            turns++
+            right {
+                repeat(turns) {
+                    if (movement == steps) {
+                        println(startPoint)
+                        return startPoint
+                    }
+                    movement++
+                    startPoint.x++
+                }
 
+            }
+
+            up {
+                repeat(turns) {
+                    if (movement == steps) {
+                        println(startPoint)
+                        return startPoint
+                    }
+                    movement++
+                    startPoint.y++
+                }
+            }
         }
-
-        down {
-
-        }
-
-        right {
-
-        }
-
-        up {
-
-        }
-
     }
 
     private inline fun left(function: () -> Unit) {
-        TODO("Not yet implemented")
+        function()
     }
 
     private inline fun right(function: () -> Unit) {
-        TODO("Not yet implemented")
+        function()
     }
 
     private inline fun down(function: () -> Unit) {
-        TODO("Not yet implemented")
+        function()
     }
 
     private inline fun up(function: () -> Unit) {
-        TODO("Not yet implemented")
+        function()
     }
 
-}
-
-fun main() {
-    val value = readln()
-    val robot = Robot()
-    robot.walk(value.toInt())
 }
