@@ -3,7 +3,10 @@ package leetcodefavorites.robot
 import java.io.File
 
 fun main() {
+    println("-=-=-=-=-")
     inputFromFile()
+    println("-=-=-=-=-")
+    stdInput()
 }
 
 fun inputFromFile() {
