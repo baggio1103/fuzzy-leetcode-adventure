@@ -1,7 +1,5 @@
 package leetcodefavorites.robot
 
-import java.io.File
-
 data class Coordinate(
     var x: Int = 0,
     var y: Int = 0
