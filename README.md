@@ -69,7 +69,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june13/Solution.kt)
 - [June 14 - Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/submissions/971394673/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june14/Solution.kt)
-
+- [June 22 - Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+  - [Solution]()
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
