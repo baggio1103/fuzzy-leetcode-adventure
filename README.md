@@ -156,6 +156,6 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/designProblems/stack/MaxStack.kt)
 
 ---
-### [Leetcode Favouties]()
+### [Leetcode Favourites]()
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/leetcodefavorites/bst/IsBST.kt)
