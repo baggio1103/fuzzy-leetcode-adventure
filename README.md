@@ -154,3 +154,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/designProblems/bitset/BitSet.kt)
 - [Design MaxStack](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/designProblems/stack)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/designProblems/stack/MaxStack.kt)
+
+---
+### [Leetcode Favouties]()
+- [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/leetcodefavorites/bst/IsBST.kt)
