@@ -1,31 +1,56 @@
 package leetcodefavorites.bst
 
 
-class TreeNode(var value: Int) {
+class TreeNode(var `val`: Int) {
     var left: TreeNode? = null
     var right: TreeNode? = null
 
     override fun toString(): String {
-        return "TreeNode{val: $value}"
+        return "TreeNode{val: $`val`}"
     }
 }
 
-fun isBst(root: TreeNode?): Boolean {
+fun isBst(root: TreeNode?, border: Pair<Int?, Int?>? = null): Boolean {
     if (root == null) {
         return true
     }
-    val value = root.value - (root.left?.value ?: 0)  > 0 && root.value - (root.right?.value ?: root.value)  <= 0
-    println("IsBst: $value. Node value: ${root.value}, nodeLeft: ${root.left?.value}, nodeRight: ${root.right?.value}")
-    if (!value) {
+    println("Val: ${root.`val`} Border: $border")
+    if (!inRange(root.`val`, border)) {
         return false
     }
-    val left = isBst(root.left)
-    val right = isBst(root.right)
+    val leftBorder = border?.let {
+        Pair(it.first, root.`val`)
+    } ?: run {
+        Pair(null, root.`val`)
+    }
+    val rightBorder = border?.let {
+        Pair(root.`val`, it.second)
+    } ?: run {
+        Pair(root.`val`, null)
+    }
+    val left = isBst(root.left, leftBorder)
+    val right = isBst(root.right, rightBorder)
     return left && right
 }
 
+fun inRange(value: Int, border: Pair<Int?, Int?>?): Boolean {
+    if (border == null) {
+        return true
+    }
+    val (leftBorder, rightBorder) = border
+    if (leftBorder == null && rightBorder == null) {
+        return true
+    }
+    if (leftBorder == null) {
+        return value < rightBorder!!
+    }
+    if (rightBorder == null) {
+        return value > leftBorder
+    }
+    return value > leftBorder && value < rightBorder
+}
+
 fun main() {
-    println("-=--=-=-=-=-=-=-=")
     val rootOne = TreeNode(5).also {
         it.left = TreeNode(10)
         it.right = TreeNode(12)
@@ -33,7 +58,6 @@ fun main() {
     println(
         isBst(rootOne)
     )
-
     println("-=--=-=-=-=-=-=-=")
     val rootTwo = TreeNode(5).also {
         it.left = TreeNode(1)
@@ -42,7 +66,6 @@ fun main() {
     println(
         isBst(rootTwo)
     )
-
     println("-=--=-=-=-=-=-=-=")
     val rootThree = TreeNode(5).also {
         it.left = TreeNode(1)
@@ -50,7 +73,6 @@ fun main() {
     println(
         isBst(rootThree)
     )
-
     println("-=--=-=-=-=-=-=-=")
     val rootFour = TreeNode(5).also {
         it.left = TreeNode(1)
@@ -62,7 +84,6 @@ fun main() {
     println(
         isBst(rootFour)
     )
-
     println("-=--=-=-=-=-=-=-=")
     val rootFive = TreeNode(5).also {
         it.left = TreeNode(1)
@@ -74,4 +95,14 @@ fun main() {
     println(
         isBst(rootFive)
     )
+    println("-=--=-=-=-=-=-=-=")
+    val rootSix = TreeNode(0)
+    println(
+        isBst(rootSix)
+    )
+    println("-=--=-=-=-=-=-=-=")
+    val rootSeven = TreeNode(1).also {
+        it.right = TreeNode(1)
+    }
+    println(isBst(rootSeven))
 }
