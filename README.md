@@ -71,6 +71,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june14/Solution.kt)
 - [June 22 - Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
   - [Solution]()
+- [June 26 - Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/submissions/980403461/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june26/TotalCost.kt)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
