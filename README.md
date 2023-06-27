@@ -73,6 +73,8 @@
   - [Solution]()
 - [June 26 - Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/submissions/980403461/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june26/TotalCost.kt)
+- [June 27 -Find K Pairs with the Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
+  - [Solution](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
