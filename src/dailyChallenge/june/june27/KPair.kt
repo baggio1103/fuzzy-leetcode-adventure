@@ -4,7 +4,16 @@ import java.util.PriorityQueue
 import kotlin.math.min
 
 class KPair {
+
     fun kSmallestPairs(arrayOne: IntArray, arrayTwo: IntArray, k: Int): List<List<Int>> {
+        return if (arrayOne.size >= k && arrayTwo.size >= k) {
+            caseOne(arrayOne, arrayTwo, k)
+        } else {
+            caseTwo(arrayOne, arrayTwo, k)
+        }
+    }
+
+    fun caseOne(arrayOne: IntArray, arrayTwo: IntArray, k: Int): List<List<Int>> {
         val queueOne = PriorityQueue<Int>()
         val queueTwo = PriorityQueue<Int>()
         arrayOne.forEach {
@@ -21,18 +30,10 @@ class KPair {
                 continue
             }
             val element = if (valueOne < valueTwo) {
-                if (queueTwo.size == 1) {
-                    queueOne.poll()
-                } else {
-                    queueTwo.poll()
-                }
+                queueTwo.poll()
                 listOf(valueOne, valueTwo)
             } else {
-                if (queueOne.size == 1) {
-                    queueTwo.poll()
-                } else {
-                    queueOne.poll()
-                }
+                queueOne.poll()
                 listOf(valueTwo, valueOne)
             }
             list.add(element)
@@ -40,8 +41,16 @@ class KPair {
         return list
     }
 
-    fun smallestPairs(arrayOne: IntArray, arrayTwo: IntArray, k: Int): List<List<Int>> {
-        val priorityQueue = PriorityQueue<List<Int>>(Comparator.comparing { it.sum() })
+    fun caseTwo(arrayOne: IntArray, arrayTwo: IntArray, k: Int): List<List<Int>> {
+        val priorityQueue = PriorityQueue<List<Int>>(Comparator
+        { a, b ->
+            if (a.sum() > b.sum()
+            ) {
+                1
+            } else if (a.sum() < b.sum()) {
+                -1
+            } else 0
+        })
         arrayOne.forEach { aValue ->
             arrayTwo.forEach { bValue ->
                 priorityQueue.add(listOf(aValue, bValue))
@@ -79,8 +88,14 @@ fun main() {
     )
     println("-=-=-=-=-=-=-=-=-=-=")
     println(
-        solution.smallestPairs(
+        solution.caseTwo(
             intArrayOf(1, 1, 2), intArrayOf(1, 2, 3), 10
+        )
+    )
+
+    println(
+        solution.kSmallestPairs(
+            intArrayOf(1,2,4,5,6), intArrayOf(3,5,7,9), 3
         )
     )
 
