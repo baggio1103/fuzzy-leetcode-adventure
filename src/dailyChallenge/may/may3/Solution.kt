@@ -1,4 +1,4 @@
-package dailyChallenge.may3
+package dailyChallenge.may.may3
 
 class Solution {
 

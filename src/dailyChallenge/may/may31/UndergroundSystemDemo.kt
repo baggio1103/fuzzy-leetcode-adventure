@@ -1,4 +1,4 @@
-package dailyChallenge.may31
+package dailyChallenge.may.may31
 
 fun main() {
     val undergroundSystem = UndergroundSystem()

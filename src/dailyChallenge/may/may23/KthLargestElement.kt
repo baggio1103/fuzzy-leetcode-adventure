@@ -1,4 +1,4 @@
-package dailyChallenge.may23
+package dailyChallenge.may.may23
 
 class KthLargest(private val k: Int, numbers: IntArray) {
 

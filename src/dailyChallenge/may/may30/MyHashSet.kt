@@ -1,4 +1,4 @@
-package dailyChallenge.may30
+package dailyChallenge.may.may30
 
 class MyHashSet {
 

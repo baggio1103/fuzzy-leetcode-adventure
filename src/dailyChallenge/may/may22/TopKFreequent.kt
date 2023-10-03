@@ -1,4 +1,4 @@
-package dailyChallenge.may22
+package dailyChallenge.may.may22
 
 class TopKFrequentElement {
 

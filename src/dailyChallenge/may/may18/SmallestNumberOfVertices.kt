@@ -1,8 +1,8 @@
-package dailyChallenge.may18
+package dailyChallenge.may.may18
 
 class SmallestNumberOfVertices {
 
-    fun findSmallestSetOfVertices(n: Int, edges: List<List<Int>>): List<Int> {
+    fun findSmallestSetOfVertices(edges: List<List<Int>>): List<Int> {
         val nodeMap = mutableMapOf<Int, HashSet<Int>>()
         edges.forEach { edge ->
             if (edge[0] == 3 && edge[1] == 4) {
@@ -55,7 +55,7 @@ fun main() {
     val smallestNumberOfVertices = SmallestNumberOfVertices()
     println(
         smallestNumberOfVertices.findSmallestSetOfVertices(
-            5, listOf(
+            listOf(
                 listOf(1, 2),
                 listOf(3, 2),
                 listOf(4, 1),
@@ -66,7 +66,7 @@ fun main() {
     )
     println(
         smallestNumberOfVertices.findSmallestSetOfVertices(
-            4, listOf(
+            listOf(
                 listOf(2, 0),
                 listOf(0, 3),
                 listOf(3, 1),
@@ -74,7 +74,7 @@ fun main() {
         )
     )
     println(
-        smallestNumberOfVertices.findSmallestSetOfVertices(6,
+        smallestNumberOfVertices.findSmallestSetOfVertices(
             listOf(
                 listOf(0, 1),
                 listOf(0, 2),
@@ -86,7 +86,7 @@ fun main() {
     )
     println("-=-=-=-=-=-=-=-=-")
     println(
-        smallestNumberOfVertices.findSmallestSetOfVertices(5,
+        smallestNumberOfVertices.findSmallestSetOfVertices(
             listOf(
                 listOf(0, 1),
                 listOf(2, 1),

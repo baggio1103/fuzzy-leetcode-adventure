@@ -1,4 +1,4 @@
-package dailyChallenge.march12;
+package dailyChallenge.march.march12;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
@@ -21,7 +21,7 @@ public class MergeSortedListSolution {
             return null;
         }
         var node = new ListNode(priorityQueue.poll());
-        while (priorityQueue.size() != 0) {
+        while (!priorityQueue.isEmpty()) {
             var nodeValue = priorityQueue.poll();
             lastNode(node).next = new ListNode(nodeValue);
         }

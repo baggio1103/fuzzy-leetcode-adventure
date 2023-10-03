@@ -1,4 +1,4 @@
-package dailyChallenge.may12
+package dailyChallenge.may.may12
 
 class BrainPower {
 
@@ -12,13 +12,6 @@ class BrainPower {
             }
         }
         return map.values.maxOf { it }
-    }
-
-    fun points(questions: Array<IntArray>, current: Int = 0, next: Int): Long {
-        if (current >= questions.size || next >= questions.size) {
-            return 0
-        }
-        return 1
     }
 
 }

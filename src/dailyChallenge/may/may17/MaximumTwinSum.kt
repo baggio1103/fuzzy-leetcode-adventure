@@ -1,4 +1,4 @@
-package dailyChallenge.may17
+package dailyChallenge.may.may17
 
 import kotlin.math.max
 

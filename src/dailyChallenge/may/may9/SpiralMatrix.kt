@@ -1,4 +1,4 @@
-package dailyChallenge.may9
+package dailyChallenge.may.may9
 
 class SpiralMatrix {
 

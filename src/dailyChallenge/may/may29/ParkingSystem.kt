@@ -1,4 +1,4 @@
-package dailyChallenge.may29
+package dailyChallenge.may.may29
 
 class ParkingSystem(small: Int, medium: Int, big: Int) {
 

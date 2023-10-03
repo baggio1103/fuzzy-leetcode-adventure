@@ -1,4 +1,4 @@
-package dailyChallenge.may4
+package dailyChallenge.may.may4
 
 class DotaSenate {
 

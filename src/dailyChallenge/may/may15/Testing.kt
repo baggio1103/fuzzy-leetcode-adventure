@@ -1,4 +1,4 @@
-package dailyChallenge.may15
+package dailyChallenge.may.may15
 
 fun main() {
     val swappingNodes = SwappingNodes()

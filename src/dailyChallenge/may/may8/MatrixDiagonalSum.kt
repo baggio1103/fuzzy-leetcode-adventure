@@ -1,4 +1,4 @@
-package dailyChallenge.may8
+package dailyChallenge.may.may8
 
 class MatrixDiagonalSum {
 

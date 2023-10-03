@@ -1,4 +1,4 @@
-package dailyChallenge.march13.iterative;
+package dailyChallenge.march.march13.iterative;
 
 import java.util.*;
 
@@ -108,9 +108,6 @@ class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
-
-    TreeNode() {
-    }
 
     TreeNode(int val) {
         this.val = val;

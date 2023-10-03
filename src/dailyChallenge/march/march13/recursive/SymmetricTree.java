@@ -1,4 +1,4 @@
-package dailyChallenge.march13.recursive;
+package dailyChallenge.march.march13.recursive;
 
 import java.util.*;
 
@@ -77,9 +77,6 @@ class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
-
-    TreeNode() {
-    }
 
     TreeNode(int val) {
         this.val = val;

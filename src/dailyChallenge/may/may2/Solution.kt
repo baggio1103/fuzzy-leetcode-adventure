@@ -1,4 +1,4 @@
-package dailyChallenge.may2
+package dailyChallenge.may.may2
 
 import java.math.BigInteger
 import java.util.*
