@@ -73,14 +73,14 @@
   - [Solution]()
 - [June 26 - Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/submissions/980403461/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/june/june26/TotalCost.kt)
-- [June 27 -Find K Pairs with the Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
+- [June 27 - Find K Pairs with the Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
   - [Solution](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
 
-- [Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)
+- [November 22 - Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november22/DiagonalTraverse.kt)
-- [Arithmetic SubArrays](https://leetcode.com/problems/arithmetic-subarrays/)
+- [November 23 - Arithmetic SubArrays](https://leetcode.com/problems/arithmetic-subarrays/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november23/ArithmeticSequence.kt)
-- [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)
+- [November 24 - Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november24/MaxCoin.kt)
 
 
