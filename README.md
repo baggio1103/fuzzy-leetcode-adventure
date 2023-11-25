@@ -82,6 +82,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november23/ArithmeticSequence.kt)
 - [November 24 - Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november24/MaxCoin.kt)
+- [November 25 - Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november25/SumOfAbsoluteDiff.kt)
 
 
 [//]: # (- []&#40;&#41;)
