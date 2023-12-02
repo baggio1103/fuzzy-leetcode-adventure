@@ -5,7 +5,7 @@ package dailyChallenge.december.december2
 
 fun countCharacters(words: Array<String>, chars: String): Int {
     val charMap = chars.groupingBy { it }.eachCount()
-    return words.toList().parallelStream().filter { word ->
+    return words.filter { word ->
         word.groupingBy { it }.eachCount()
             .forEach {
             val (key, value) = it
@@ -14,7 +14,7 @@ fun countCharacters(words: Array<String>, chars: String): Int {
             }
         }
         return@filter true
-    }.toList().sumOf { it.length }
+    }.sumOf { it.length }
 }
 
 fun main() {
