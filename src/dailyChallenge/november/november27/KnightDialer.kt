@@ -1,12 +1,14 @@
 package dailyChallenge.november.november27
 
+import kotlin.system.measureTimeMillis
 
 const val mod = 1000000007
 
 fun knightDialer(n: Int): Int {
     var sum = 0
+    val map = mutableMapOf<String, Int>()
     IntRange(0, 9).forEach {
-        val dial = knightDealer(n, length = 1, value = it)
+        val dial = knightDealer(n, map, length = 1, value = it)
         sum += dial
         sum %= mod
     }
@@ -15,7 +17,7 @@ fun knightDialer(n: Int): Int {
 
 private fun knightDealer(
     n: Int,
-    map: MutableMap<String, Int> = mutableMapOf(),
+    map: MutableMap<String, Int>,
     length: Int,
     value: Int,
 ): Int {
@@ -53,7 +55,8 @@ private fun movements(cell: Int): List<Int> {
 }
 
 fun main() {
-    println(
-        knightDialer(3131)
-    )
+    val execTime = measureTimeMillis {
+        knightDialer(4999)
+    }
+    println("Exec time: $execTime")
 }
