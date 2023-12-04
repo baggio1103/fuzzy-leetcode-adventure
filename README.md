@@ -84,6 +84,18 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november24/MaxCoin.kt)
 - [November 25 - Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november25/SumOfAbsoluteDiff.kt)
+- [December 27 - Knight Dialer](https://leetcode.com/problems/knight-dialer/?envType=daily-question&envId=2023-11-27)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november27/KnightDialer.kt)
+
+
+- [December 1 - Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december1/ArrayEquivalent.kt)
+- [December 2 - Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december2/CountCharacters.kt)
+- [December 3 - Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/description/?envType=daily-question&envId=2023-12-03)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december3)
+- [December 4 - Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/?envType=daily-question&envId=2023-12-04)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december4)
 
 
 [//]: # (- []&#40;&#41;)
