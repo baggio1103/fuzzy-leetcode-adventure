@@ -96,6 +96,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december3)
 - [December 4 - Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/?envType=daily-question&envId=2023-12-04)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december4)
+- [December 5 - Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/submissions/)
+    - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december5/CountMatches.kt)
 
 
 [//]: # (- []&#40;&#41;)
