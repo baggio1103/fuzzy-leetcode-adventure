@@ -102,6 +102,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december6/LeetcodeMoney.kt)
 - [December 7 - Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december7)
+- [December 8 - Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december8)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
