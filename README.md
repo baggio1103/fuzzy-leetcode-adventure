@@ -84,7 +84,7 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november24/MaxCoin.kt)
 - [November 25 - Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november25/SumOfAbsoluteDiff.kt)
-- [December 27 - Knight Dialer](https://leetcode.com/problems/knight-dialer/?envType=daily-question&envId=2023-11-27)
+- [November 27 - Knight Dialer](https://leetcode.com/problems/knight-dialer/?envType=daily-question&envId=2023-11-27)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/november/november27/KnightDialer.kt)
 
 
@@ -108,6 +108,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december9/InOrderTraversal.kt)
 - [December 10 - Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december10/MatrixTranspose.kt)
+- [December 11 - Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december11/SpecialInteger.kt)
 
 
 [//]: # (- []&#40;&#41;)
