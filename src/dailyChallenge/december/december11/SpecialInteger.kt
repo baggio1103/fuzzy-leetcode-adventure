@@ -28,8 +28,27 @@ fun findSpecialIntegerFunctional(array: IntArray): Int {
     val value = array.size * 0.25
     return array.asList().groupingBy { it }.eachCount()
         .filter { it.value > value }
-        .firstNotNullOf { it.key }
+        .firstNotNullOfOrNull { it.key } ?: 0
 }
+
+//
+fun findSpecialIntegerInSorted(array: IntArray): Int {
+    val percentage = (array.size * 0.25).toInt()
+    return IntRange(0, array.lastIndex).first {
+        array[it] == array[it + percentage]
+    }.let { array[it] }
+}
+
+fun findSpecialIntegerInSortedIterative(array: IntArray): Int {
+    val percentage = (array.size * 0.25).toInt()
+    for (i in 0 .. array.lastIndex) {
+        if (array[i] == array[i + percentage]) {
+            return array[i]
+        }
+    }
+    return -1
+}
+
 
 fun main() {
     val random = Random(2000)
@@ -46,6 +65,11 @@ fun main() {
         measureTimeMillis {
             findSpecialIntegerFunctional(array)
         }
+    )
+    println(
+        findSpecialIntegerInSorted(
+            intArrayOf(1, 2, 2, 6, 6, 6, 6, 7, 10)
+        )
     )
 
 }
