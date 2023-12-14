@@ -9,7 +9,7 @@ fun onesMinusZeros(grid: Array<IntArray>): Array<IntArray> {
         for (j in 0 until columns) {
             if (grid[i][j] == 1) {
                 rowOnes[i]++
-                columnOnes[i]++
+                columnOnes[j]++
             }
         }
     }
