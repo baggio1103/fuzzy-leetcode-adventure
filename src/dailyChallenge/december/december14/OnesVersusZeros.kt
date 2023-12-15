@@ -29,7 +29,5 @@ fun main() {
     )
     onesMinusZeros(
         array
-    ).forEach {
-        println(it.asList())
-    }
+    )
 }
