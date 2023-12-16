@@ -118,6 +118,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december14/OnesVersusZeros.kt)
 - [December 15 - Destination City](https://leetcode.com/problems/destination-city/description/?envType=daily-question&envId=2023-12-15)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december15)
+- [December 16 - Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december16/Anagram.kt)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
