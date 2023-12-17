@@ -120,6 +120,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december15)
 - [December 16 - Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december16/Anagram.kt)
+- [December 17 - Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december17/FoodRatingSystem.kt)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
@@ -203,6 +205,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/designProblems/bitset/BitSet.kt)
 - [Design MaxStack](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/designProblems/stack)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/designProblems/stack/MaxStack.kt)
+- [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december17/FoodRatingSystem.kt)
 
 ---
 ### [Leetcode Favourites]()
