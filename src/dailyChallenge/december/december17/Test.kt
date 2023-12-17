@@ -1,7 +1,5 @@
 package dailyChallenge.december.december17
 
-import kotlin.math.min
-
 fun main() {
     val foodRatingSystem = FoodRatingSystem(
         arrayOf("cpctxzh", "bryvgjqmj", "wedqhqrmyc", "ee", "lafzximxh", "lojzxfel", "flhs"),
