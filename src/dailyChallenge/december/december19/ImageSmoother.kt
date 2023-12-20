@@ -27,14 +27,12 @@ fun avgValue(i: Int, j: Int, rowSize: Int, columnSize: Int, img: Array<IntArray>
             }
         }
     }
-    //
     for (x in j - 1..j + 1) {
         if (x in columnRange) {
             sum += img[i][x]
             count++
         }
     }
-    //
     if (i + 1 in rowRange) {
         for (x in j - 1..j + 1) {
             if (x in columnRange) {
@@ -57,5 +55,4 @@ fun main() {
     ).forEach {
         println(it.asList())
     }
-    println("-=-=-=-=-=-=")
 }
