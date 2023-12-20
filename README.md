@@ -124,7 +124,7 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december17/FoodRatingSystem.kt)
 - [December 18 - Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december18)
-- [December 19 - Image smoother]()
+- [December 19 - Image smoother](https://leetcode.com/problems/image-smoother/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december19/ImageSmoother.kt)
 - [December 20 - Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/?envType=daily-question&envId=2023-12-20)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december20/ChocoBuy.kt)
