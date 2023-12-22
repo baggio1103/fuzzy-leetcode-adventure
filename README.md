@@ -128,7 +128,12 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december19/ImageSmoother.kt)
 - [December 20 - Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/?envType=daily-question&envId=2023-12-20)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december20/ChocoBuy.kt)
+- [December 21 - Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december21/MaxWidthVerticalArea.kt)
 
+https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/description/
+
+https://leetcode.com/problems/maximum-score-after-splitting-a-string/
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
