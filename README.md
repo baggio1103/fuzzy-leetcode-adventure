@@ -130,10 +130,11 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december20/ChocoBuy.kt)
 - [December 21 - Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december21/MaxWidthVerticalArea.kt)
+- [December 22 - Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december22)
+- [December 23 - Path Crossing](https://leetcode.com/problems/path-crossing/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december23)
 
-https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/description/
-
-https://leetcode.com/problems/maximum-score-after-splitting-a-string/
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
