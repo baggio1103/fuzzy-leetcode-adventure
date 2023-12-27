@@ -138,6 +138,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december24)
 - [December 25 - Decode Ways](https://leetcode.com/problems/decode-ways/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december25)
+- [December 26](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december26/NumberOfDiceRoll.kt)
+- [December 27](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
+  - [Solution]()
 
 
 [//]: # (- []&#40;&#41;)
