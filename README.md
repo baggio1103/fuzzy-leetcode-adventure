@@ -141,7 +141,7 @@
 - [December 26](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december26/NumberOfDiceRoll.kt)
 - [December 27](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
-  - [Solution]()
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december27/MinTimeColorfulRope.kt)
 
 
 [//]: # (- []&#40;&#41;)
