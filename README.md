@@ -142,6 +142,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december26/NumberOfDiceRoll.kt)
 - [December 27](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december27/MinTimeColorfulRope.kt)
+- [December 28 - String Compression II](https://leetcode.com/problems/string-compression-ii/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december28)
 
 
 [//]: # (- []&#40;&#41;)
