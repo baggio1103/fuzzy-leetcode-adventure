@@ -138,13 +138,14 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december24)
 - [December 25 - Decode Ways](https://leetcode.com/problems/decode-ways/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december25)
-- [December 26](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)
+- [December 26 - Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december26/NumberOfDiceRoll.kt)
-- [December 27](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
+- [December 27 - Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december27/MinTimeColorfulRope.kt)
 - [December 28 - String Compression II](https://leetcode.com/problems/string-compression-ii/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december28)
-
+- [December 29 - Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december29)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
