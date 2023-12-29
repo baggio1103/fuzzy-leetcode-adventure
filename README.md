@@ -159,7 +159,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/TribonacciNumber.kt)
 - [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&id=dynamic-programming)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/MinCostClimbingStairs.kt)
-
+- [House robber](https://leetcode.com/problems/house-robber/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/HouseRobber.kt)
 ---
 ## [Sliding Window]()
 - [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
