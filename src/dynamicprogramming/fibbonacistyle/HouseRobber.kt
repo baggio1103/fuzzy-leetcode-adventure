@@ -47,6 +47,12 @@ fun main() {
         rob(
             intArrayOf(1, 2, 3, 1)
         )
-
     )
+
+    println(
+        rob(
+            intArrayOf(9, 2, 15, 7, 6, 25)
+        )
+    )
+
 }
