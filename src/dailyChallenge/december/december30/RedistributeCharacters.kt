@@ -17,5 +17,4 @@ fun main() {
     println(
         makeEqual(arrayOf("ab","a"))
     )
-
 }
