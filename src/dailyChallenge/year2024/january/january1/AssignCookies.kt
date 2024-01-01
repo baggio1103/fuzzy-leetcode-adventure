@@ -1,8 +1,5 @@
 package dailyChallenge.year2024.january.january1
 
-// skovorodka 13-28
-
-
 fun findContentChildren(greed: IntArray, cookies: IntArray): Int {
     greed.sort()
     cookies.sort()
