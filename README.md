@@ -176,6 +176,9 @@
 - [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
   - [Approach](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/solutions/3610614/easy-implementation-of-sliding-window-algorithm/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/slidingwindow/MaxVowelSubstringNumber.kt)
+- [Assign Cookies](https://leetcode.com/problems/assign-cookies/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january1)
+
 
 [//]: # (- [Next problem &#40;Pattern&#41;]&#40;&#41;)
 
