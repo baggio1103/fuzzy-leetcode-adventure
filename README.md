@@ -8,7 +8,7 @@
 - [Determine the winner of a Bowling Game](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/contest343/Bowling.kt)
 -  [First Completely Painted Row or Column](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/contest343/MatrixOptimized.kt)
 ---
-## [Daily challenges]()
+## [Daily challenges - 2023]()
 - [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) 
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/march14/RootLeafSum.kt)
 - [2nd May - Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)
@@ -148,8 +148,13 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december29)
 - [December 30 - Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december30)
-- [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/?envType=daily-question&envId=2023-12-31)
+- [December 31 - Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/?envType=daily-question&envId=2023-12-31)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/december/december31)
+
+## [Daily challenges - 2024]()
+- [January 1 - Assign cookies](https://leetcode.com/problems/assign-cookies/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january1)
+
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
