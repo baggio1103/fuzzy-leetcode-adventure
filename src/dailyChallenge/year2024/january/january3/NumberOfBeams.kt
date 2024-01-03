@@ -1,5 +1,10 @@
 package dailyChallenge.year2024.january.january3
 
+/**
+ * Notes:
+ * Sliding Window
+*/
+
 fun numberOfBeams(bank: Array<String>): Int {
     var beams = 0
     var i = 0
