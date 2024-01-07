@@ -17,12 +17,14 @@ fun maxLengthBetweenEqualCharacters(string: String): Int {
             }
         }
     }
-    val result = map.values.maxBy {
-        val max = it[1]
-        val min = it[0]
-        if (min == 0) max - 1 else max - min - 1
+    var overallMax = -1
+    map.values.forEach { array ->
+        val max = array[1] - array[0] - 1
+        if (max > overallMax) {
+            overallMax = max
+        }
     }
-    return result[1] - result[0] - 1
+    return overallMax
 }
 
 fun main() {
