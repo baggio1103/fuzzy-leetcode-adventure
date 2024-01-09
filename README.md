@@ -166,6 +166,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january6)
 - [January 8 - Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january8)
+- [January 9 - Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/?envType=daily-question&envId=2024-01-09)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january9)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
