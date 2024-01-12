@@ -1,7 +1,5 @@
 package dailyChallenge.year2024.january.january11
 
-import kotlin.math.absoluteValue
-
 class TreeNode(var `val`: Int) {
     var left: TreeNode? = null
     var right: TreeNode? = null
@@ -9,7 +7,7 @@ class TreeNode(var `val`: Int) {
 
 fun maxAncestorDiff(root: TreeNode?, maxValue: Int = root?.`val` ?: 0, minValue: Int = root?.`val` ?: 0): Int {
     if (root == null) {
-        return (maxValue - minValue).absoluteValue
+        return maxValue - minValue
     }
     val leftTree = maxAncestorDiff(root.left, maxOf(root.`val`, maxValue), minOf(root.`val`, minValue))
     val rightTree = maxAncestorDiff(root.right, maxOf(root.`val`, maxValue), minOf(root.`val`, minValue))
