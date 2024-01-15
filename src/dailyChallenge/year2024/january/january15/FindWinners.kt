@@ -1,7 +1,5 @@
 package dailyChallenge.year2024.january.january15
 
-import kotlin.contracts.contract
-
 fun findWinners(matches: Array<IntArray>): List<List<Int>> {
     val winners = mutableListOf<Int>()
     val losers = mutableListOf<Int>()
@@ -26,7 +24,7 @@ fun findWinners(matches: Array<IntArray>): List<List<Int>> {
             losers.add(player)
         }
     }
-    return listOf(winners.sorted(), losers.distinct().sorted())
+    return listOf(winners.sorted(), losers.sorted())
 }
 
 fun main() {
