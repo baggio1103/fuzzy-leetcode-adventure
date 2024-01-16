@@ -7,12 +7,15 @@ fun numberOfArithmeticSlices(array: IntArray): Int {
     for (i in 1 until array.size) {
         for (j in 0 until i) {
             val diff = array[i].toLong() - array[j].toLong()
+            if (diff !in Int.MIN_VALUE .. Int.MAX_VALUE) {
+                continue
+            }
             val count = dp[j][diff] ?: 0
-            totalArithmeticSubsequences += count
+            totalArithmeticSubsequences += count + 1
             dp[i][diff] = dp[i].getOrDefault(diff, 0) + count + 1
         }
     }
-    return totalArithmeticSubsequences
+    return (totalArithmeticSubsequences - (size * (size - 1) / 2)).coerceAtLeast(0)
 }
 
 fun main() {
