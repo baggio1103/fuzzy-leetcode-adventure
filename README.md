@@ -188,7 +188,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january17)
 - [January 18 - Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/?envType=daily-question&envId=2024-01-18)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january18)
-
+- [January 19 - Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/submissions/1150501127/?envType=daily-question&envId=2024-01-19)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january19)
 
 
 [//]: # (- []&#40;&#41;)
