@@ -192,6 +192,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january19)
 - [January 21 - House Robber](https://leetcode.com/problems/house-robber/description/?envType=daily-question&envId=2024-01-21)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january21)
+- [January 22 - Set Mismatch](https://leetcode.com/problems/set-mismatch/description/?envType=daily-question&envId=2024-01-22)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january22)
 
 
 [//]: # (- []&#40;&#41;)
