@@ -22,12 +22,11 @@ fun sumSubArrayMins(array: IntArray): Int {
     val mod = 1_000_000_007
     var count = 0
     var iteration = 0
-    val size = 30000
-    val minimums = MutableList(size) { _ -> 0 }
+    val minimums = mutableListOf<Int>()
     array.forEach { value ->
         count += value
         count %= mod
-        for (i in 0 .. iteration) {
+        for (i in minimums.indices) {
             val currentValue = if (value < minimums[i]) {
                 minimums[i] = value
                 value
