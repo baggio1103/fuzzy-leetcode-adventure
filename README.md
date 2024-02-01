@@ -207,6 +207,11 @@
 - [January 31 - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january31)
 
+### February 2024
+
+- [February 1 - Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february1)
+
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
 
