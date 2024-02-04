@@ -214,6 +214,9 @@
 - [February 2 - Sequential Digits](https://leetcode.com/problems/sequential-digits/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february2)
 
+- [February 4 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february4)
+
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
