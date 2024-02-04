@@ -1,66 +1,62 @@
 package dailyChallenge.year2024.february.february4
 
-fun minWindow(s: String, t: String): String {
-    if (t.length > s.length) {
+import java.util.Stack
+
+fun minWindow(stringOne: String, stringTwo: String): String {
+    if (stringTwo.length > stringOne.length) {
         return ""
     }
-    val window = t.length
-    val tMap = t.groupingBy { it }.eachCount()
-    var contains: Boolean
-    for (i in window..s.length) {
-        contains = true
-        val windowMap = mutableMapOf<Char, Int>().apply {
-            for (j in 0 until  i) {
-                val count = this[s[j]] ?: 0
-                this[s[j]] = count + 1
+    val targetMap = stringTwo.groupingBy { it }.eachCount()
+    val needMap = mutableMapOf<Char, Int>()
+    val need = targetMap.values.sum()
+    var have = 0
+    var left = 0
+    var right = 0
+    val stack = Stack<String>()
+    while (right < stringOne.length) {
+        val char = stringOne[right]
+        val targetCharCount = targetMap[char] ?: 0
+        if (targetCharCount == 0) {
+            right++
+            continue
+        }
+        val needCharCount = needMap[char] ?: 0
+        if (needCharCount < targetCharCount) {
+            have++
+        }
+        needMap[char] = needCharCount + 1
+        if (have == need && stack.isEmpty()) {
+            val range = IntRange(left, right)
+            val substring = stringOne.substring(range)
+            stack.push(substring)
+        }
+        if (have == need && stack.isNotEmpty()) {
+            val range = IntRange(left, right)
+            val substring = stringOne.substring(range)
+            if (stack.peek().length > substring.length) {
+                stack.push(substring)
             }
         }
-        val subString = mutableListOf<Char>().apply {
-            for (j in 0 until  i) {
-                add(s[j])
-            }
-        }
-        var leftIndex = 1
-        var rightIndex = i
-        for ((key, value) in tMap) {
-            val sValue = windowMap[key] ?: 0
-            if (value > sValue) {
-                contains = false
-                break
-            }
-        }
-        if (contains) {
-            return subString.joinToString(separator = "") { "$it" }
-        }
-        while (leftIndex <= s.length - i) {
-            val prevChar = s[leftIndex - 1]
-            val prevCount = (windowMap[prevChar] ?: 0) - 1
-            if (prevCount == 0) {
-                windowMap.remove(prevChar)
-            } else
-                windowMap[prevChar] = prevCount
-            subString.removeAt(0)
-            val char = s[rightIndex]
-            val count = windowMap[char] ?: 0
-            windowMap[char] = count + 1
-            contains = true
-            subString.add(s[rightIndex])
-
-            for ((key, value) in tMap) {
-                val sValue = windowMap[key] ?: 0
-                if (value > sValue) {
-                    contains = false
-                    break
+        while (have >= need) {
+            val leftSideChar = stringOne[left]
+            val count = targetMap[leftSideChar] ?: 0
+            if (count > 0) {
+                val leftCharCount = needMap[leftSideChar] ?: 0
+                if (leftCharCount <= count) {
+                    have--
+                    val range = IntRange(left, right)
+                    val substring = stringOne.substring(range)
+                    if (stack.peek().length > substring.length) {
+                        stack.push(substring)
+                    }
                 }
+                needMap[leftSideChar] = leftCharCount - 1
             }
-            if (contains) {
-                return subString.joinToString(separator = "") { "$it" }
-            }
-            leftIndex++
-            rightIndex++
+            left++
         }
+        right++
     }
-    return ""
+    return if (stack.isEmpty()) "" else stack.pop()
 }
 
 fun main() {
@@ -73,7 +69,6 @@ fun main() {
     println(
         minWindow("ADOBECODEBANC", "ABC")
     )
-
     println(
         minWindow(
             "obzcopzocynyrsgsarijyxnkpnukkrvzuwdjldxndmnvevpgmxrmvfwkutwekrffnloyqnntbdohyfqndhzyoykiripdzwiojyoznbtogjyfpouuxvumtewmmnqnkadvzrvouqfbbdiqremqzgevkbhyoznacqwbhtrcjwfkzpdstpjswnpiqxjhywjanhdwavajrhwtwzlrqwmombxcaijzevbtcfsdcuovckoalcseaesmhrrizcjgxkbartdtotpsefsrjmvksqyahpijsrppdqpvmuocofuunonybjivbjviyftsyiicbzxnwnrmvlgkzticetyfcvqcbjvbufdxgcmesdqnowzpshuwcseenwjqhgsdlxatamysrohfnixfprdsljyyfhrnnjsagtuihuczilgvtfcjwgdhpbixlzmakebszxbhrdibpoxiwztshwczamwnninzmqrmpsviydkptjzpktksrortapgpxwojofxeasoyvyprjoguhqobehugwdvtzlenrcttuitsiijswpogicjolfxhiscjggzzissfcnxnvgftxvbfzkukqrtalvktdjsodmtgzqtuyaqvvrbuexgwqzwduixzrpnvegddyyywaquxjxrnuzlmyipuqotkghfkpknqinoidifnfyczzonxydtqroazxhjnrxfbmtlqcsfhshjrxwqvblovaouxwempdrrplefnxmwrwfjtebrfnfanvvmtbzjesctdgbsfnpxlwihalyiafincfcwgdfkvhebphtxukwgjgplrntsuchyjjuqozakiglangxkttsczhnswjksnuqwflmumpexxrznzwxurrysaokwxxqkrggytvsgkyfjrewrcvntomnoazmzycjrjrqemimyhriyxgrzcfuqtjhvjtuhwfzhwpljzajitrhryaqchnuawbxhxrpvyqcvhpggrpplhychyulijhkglinibedauhvdydkqszdbzfkzbvhldstocgydnbfjkcnkfxcyyfbzmmyojgzmasccaahpdnzproaxnexnkamwmkmwslksfpwirexxtymkmojztgmfhydvlqtddewjvsrmyqjrpycbmndhupmdqqabiuelacuvxnhxgtpvrtwfgzpcrbhhtikbcqpctlxszgpfbgcsbaaiapmtsucocmpecgixshrrnhyrpalralbccnxvjzjllarqhznzghswqsnfuyywmzbopyjyauknxddgdthlabjqtwxpxwljvoxkpjjpfvccyikbbrpdsyvlxscuoofkecwtnfkvcnzbxkeabtdusyhrqklhaqreupakxkfzxgawqfwsaboszvlshwzhosojjotgyagygguzntrouhiweuomqptfjjqsxlbylhwtpssdlltgubczxslqjgxuqnmpynnlwjgmebrpokxjnbiltvbebyytnnjlcwyzignmhedwqbfdepqakrelrdfesqrumptwwgifmmbepiktxavhuavlfaqxqhreznbvvlakzeoomykkzftthoemqwliednfsqcnbexbimrvkdhllcesrlhhjsspvfupxwdybablotibypmjutclgjurbmhztboqatrdwsomnxnmocvixxvfiqwmednahdqhxjkvcyhpxxdmzzuyyqdjibvmfkmonfxmohhshpkhmntnoplphqyprveyfsmsxjfosmicdsjrieeytpnbhlsziwxnpmgoxneqbnufhfwrjbqcsdfarybzwaplmxckkgclvwqdbpumsmqkswmjwnkuqbicykoisqwoootrdpdvcuiuswfqmrkctsgrevcxnyncmivsxbpbxzxpwchiwtkroqisnmrbmefbmatmdknaklpgpyqlsccgunaibsloyqpnsibwuowebomrmcegejozypjzjunjmeygozcjqbnrpakdermjcckartbcppmbtkhkmmtcngteigjnxxyzaibtdcwutkvpwezisskfaeljmxyjwykwglqlnofhycwuivdbnpintuyhtyqpwaoelgpbuwiuyeqhbvkqlsfgmeoheexbhnhutxvnvfjwlzfmvpcghiowocdsjcvqrdmkcizxnivbianfpsnzabxqecinhgfyjrjlbikrrgsbgfgyxtzzwwpayapfgueroncpxogouyrdgzdfucfrywtywjeefkvtzxlwmrniselyeodysirqflpduvibfdvedgcrzpzrunpadvawfsmmddqzaaahfxlifobffbyzqqbtlcpquedzjvykvarayfldvmkapjcfzfbmhscdwhciecsbdledspgpdtsteuafzbrjuvmsfrajtulwirzagiqjdiehefmfifocadxfuxrpsemavncdxuoaetjkavqicgndjkkfhbvbhjdcygfwcwyhpirrfjziqonbyxhibelinpllxsjzoiifscwzlyjdmwhnuovvugfhvquuleuzmehggdfubpzolgbhwyeqekzccuypaspozwuhbzbdqdtejuniuuyagackubauvriwneeqfhtwkocuipcelcfrcjcymcuktegiikyosumeioatfcxrheklookaqekljtvtdwhxsteajevpjviqzudnjnqbucnfvkybggaybebljwcstmktgnipdyrxbgewqczzkaxmeazpzbjsntltjwlmuclxirwytvxgvxscztryubtjweehapvxrguzzsatozzjytnamfyiitreyxmanhzeqwgpoikcjlokebksgkaqetverjegqgkicsyqcktmwjwakivtsxjwrgakphqincqrxqhzbcnxljzwturmsaklhnvyungjrxaonjqomdnxpnvihmwzphkyuhwqwdboabepmwgyatyrgtboiypxfavbjtrgwswyvcqhzwibpisydtmltbkydhznbsvxktyfxopwkxzbftzknnwipghuoijrbgqnzovxckvojvsqqraffwowfvqvfcmiicwitrhxdeombgesxexedlakitfovtydxunqnwqqdeeekiwjnwoshqcsljiicgobbbuqakjdonjawgjlezdnqhfdqnmsuavxdpnfzwipmspiabveaarshzwxmirgkmfncvtdrdvfxkpxlkdokxgtwcskmjryyymcthfnkasinihaunohkxaibtsqelockaefjmsuolebtnepauwmrxutspjwaxbmahsjtkfkxlnszribmeofbkyvbjscjtqjakuwvcgunvnonvqbbggfshauqsyznokqbhowjusypfnecffenojfvlblgzntqzlrgzprvhqnpfrrkzxznieiuivajivzijsqijigtatifmbplzqahuidegfoobpymkputzamzvweiyvvzlwihgmmmrcburbgbsdxrfjsbiylitghgcpqjbevvgypxcybubyoijijrhuzcdijfybqbfowlookqmlnplbxvjjosfqviygqyhgamuwzjklbyzopkrnhbywtfoqomweldmlrhjqswctubiknzzvcztyehouvnyiqnvkufaobehxhrjvtisxjlxoumipzjarwvbsaegdkpbsjmpevjbewzuqnfhoohhmdjgfpmjzdmtmykqvtucptwfidpwtwffzolffzqfdearclkyeecuzabjeqhxpmfodsvisnpxrqowdawheydfyhoexvcmihdlzavtqlshdhdgjzpozvvackebhgqppvcrvymljfvooauxcjnbejdivikcoaugxwzsulgfqdtefpehbrlhaoqxwcancuvbqutnfbuygoemditeagmcveatgaikwflozgdhkyfqmjcruyyuemwbqwxyyfiwnvlmbovlmccaoguieu",
