@@ -25,17 +25,8 @@ fun minWindow(stringOne: String, stringTwo: String): String {
             have++
         }
         needMap[char] = needCharCount + 1
-        if (have == need && stack.isEmpty()) {
-            val range = IntRange(left, right)
-            val substring = stringOne.substring(range)
-            stack.push(substring)
-        }
-        if (have == need && stack.isNotEmpty()) {
-            val range = IntRange(left, right)
-            val substring = stringOne.substring(range)
-            if (stack.peek().length > substring.length) {
-                stack.push(substring)
-            }
+        if (have == need) {
+            replaceStackTop(stack, stringOne, left, right)
         }
         while (have >= need) {
             val leftSideChar = stringOne[left]
@@ -44,11 +35,7 @@ fun minWindow(stringOne: String, stringTwo: String): String {
                 val leftCharCount = needMap[leftSideChar] ?: 0
                 if (leftCharCount <= count) {
                     have--
-                    val range = IntRange(left, right)
-                    val substring = stringOne.substring(range)
-                    if (stack.peek().length > substring.length) {
-                        stack.push(substring)
-                    }
+                    replaceStackTop(stack, stringOne, left, right)
                 }
                 needMap[leftSideChar] = leftCharCount - 1
             }
@@ -57,6 +44,18 @@ fun minWindow(stringOne: String, stringTwo: String): String {
         right++
     }
     return if (stack.isEmpty()) "" else stack.pop()
+}
+
+fun replaceStackTop(stack: Stack<String>, stringOne: String, left: Int, right: Int) {
+    val range = IntRange(left, right)
+    val substring = stringOne.substring(range)
+    if (stack.isEmpty()) {
+        stack.push(substring)
+        return
+    }
+    if (stack.peek().length > substring.length) {
+        stack.push(substring)
+    }
 }
 
 fun main() {
