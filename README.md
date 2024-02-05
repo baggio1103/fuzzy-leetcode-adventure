@@ -216,6 +216,8 @@
 
 - [February 4 - Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february4)
+- [February 5 - Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february5)
 
 
 [//]: # (- []&#40;&#41;)
