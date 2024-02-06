@@ -219,6 +219,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february4)
 - [February 5 - Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february5)
+- [February 6 - Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february6)
 
 
 [//]: # (- []&#40;&#41;)
