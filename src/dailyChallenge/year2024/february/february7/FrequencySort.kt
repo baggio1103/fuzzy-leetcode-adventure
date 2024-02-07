@@ -1,6 +1,7 @@
 package dailyChallenge.year2024.february.february7
 
-import java.util.PriorityQueue
+import java.util.*
+import kotlin.Comparator
 
 fun frequencySort(string: String): String {
     val queue = PriorityQueue(Comparator.comparing<Pair<Int, Char>, Int> { it.first }.reversed()).apply {
