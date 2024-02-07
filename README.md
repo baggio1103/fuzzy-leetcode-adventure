@@ -221,6 +221,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february5)
 - [February 6 - Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february6)
+- [February 7 - Frequency sort](https://leetcode.com/problems/sort-characters-by-frequency/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february7)
 
 
 [//]: # (- []&#40;&#41;)
