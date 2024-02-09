@@ -225,6 +225,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february7)
 - [February 8 - Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february8)
+- [February 9 - Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february9)
 
 
 [//]: # (- []&#40;&#41;)
