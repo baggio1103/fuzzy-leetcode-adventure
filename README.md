@@ -227,6 +227,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february8)
 - [February 9 - Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february9)
+- [February 10 - Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february10)
 
 
 [//]: # (- []&#40;&#41;)

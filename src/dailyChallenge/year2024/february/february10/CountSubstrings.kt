@@ -29,15 +29,6 @@ fun isPalindrome(substring: String): Boolean {
 }
 
 fun main() {
-//    println(
-//        isPalindrome("aba")
-//    )
-//    println(
-//        isPalindrome("abc")
-//    )
-//    println(
-//        isPalindrome("abba")
-//    )
     println(
         countSubstrings(
             "aaa"
