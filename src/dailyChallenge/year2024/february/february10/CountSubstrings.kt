@@ -3,8 +3,6 @@ package dailyChallenge.year2024.february.february10
 fun countSubstrings(string: String): Int {
     var counter = 0
     for (i in string.indices) {
-        val size = i + 1
-        val charArray = CharArray(size) { index -> string[index] }
         for (j in 0 .. string.lastIndex - i) {
             val substring = string.substring(j..j + i)
             if (isPalindrome(substring)) {
