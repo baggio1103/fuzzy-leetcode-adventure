@@ -36,13 +36,13 @@ fun main() {
             2
         )
     )
-//    println(
-//        furthestBuilding(
-//            intArrayOf(4, 6, 7, 9, 14, 12),
-//            5,
-//            1
-//        )
-//    )
+    println(
+        furthestBuilding(
+            intArrayOf(4, 6, 7, 9, 14, 12),
+            5,
+            1
+        )
+    )
     println(
         furthestBuilding(
             intArrayOf(14, 3, 19, 3),
