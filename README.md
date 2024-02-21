@@ -246,6 +246,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february19)
 - [February 20 - Missing Number](https://leetcode.com/problems/missing-number/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february20)
+- [February 21 - Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february21)
 
 
 [//]: # (- []&#40;&#41;)
@@ -314,6 +316,11 @@
 ### [Bitwise Operations]()
 - [Single Number](https://leetcode.com/problems/single-number/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/bitwise/SingleNumber.kt)
+- [Power of Two](https://leetcode.com/problems/power-of-two/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february19)
+- [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february21)
+
 
 ### [Sorting]()
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
