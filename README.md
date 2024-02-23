@@ -248,8 +248,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february20)
 - [February 21 - Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february21)
-- [February 22 - Town Judge]()
+- [February 22 - Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february22)
+- [February 23 - ](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february23)
 
 
 [//]: # (- []&#40;&#41;)
