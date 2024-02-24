@@ -14,9 +14,7 @@ fun findAllPeople(n: Int, meetings: Array<IntArray>, firstPerson: Int): List<Int
     }
     val minHeap = PriorityQueue(compareBy<Pair<Int, Int>> { it.second })
     val peopleWithSecret = mutableSetOf(0, firstPerson)
-    minHeap.addAll(graph[0])
-    minHeap.addAll(graph[firstPerson])
-
+    minHeap.addAll(graph[0] + graph[firstPerson])
     while (minHeap.isNotEmpty()) {
         val (person, time) = minHeap.remove()
         peopleWithSecret.add(person)
@@ -29,20 +27,17 @@ fun findAllPeople(n: Int, meetings: Array<IntArray>, firstPerson: Int): List<Int
 }
 
 fun main() {
-    testOne()
-}
-
-fun testOne() {
-    val meetingsTwo = arrayOf(
-        intArrayOf(3, 1, 3),
-        intArrayOf(1, 2, 2),
-        intArrayOf(0, 3, 3)
-    )
     println(
         findAllPeople(
-            6,
-            meetingsTwo,
-            3
+            7,
+            arrayOf(
+                intArrayOf(2, 3, 1),
+                intArrayOf(3, 4, 1),
+                intArrayOf(4, 5, 1),
+                intArrayOf(5, 6, 1),
+                intArrayOf(6, 2, 1)
+            ),
+            4
         )
     )
 }
