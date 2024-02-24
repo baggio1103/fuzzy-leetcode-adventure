@@ -250,7 +250,7 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february21)
 - [February 22 - Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february22)
-- [February 23 - ](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)
+- [February 23 - Cheapest Flights with k - stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february23)
 - [February 24 - Find All People with secret](https://leetcode.com/problems/find-all-people-with-secret/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february24)
