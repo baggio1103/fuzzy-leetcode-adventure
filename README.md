@@ -254,6 +254,9 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february23)
 - [February 24 - Find All People with secret](https://leetcode.com/problems/find-all-people-with-secret/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february24)
+- [February 25 - Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february25)
+
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
