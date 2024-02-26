@@ -256,6 +256,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february24)
 - [February 25 - Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february25)
+- [February 26 - Is Same Tree](https://leetcode.com/problems/same-tree/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february26)
 
 
 [//]: # (- []&#40;&#41;)
