@@ -258,6 +258,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february25)
 - [February 26 - Is Same Tree](https://leetcode.com/problems/same-tree/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february26)
+- [February 27 - Diameter of Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february27)
 
 
 [//]: # (- []&#40;&#41;)
