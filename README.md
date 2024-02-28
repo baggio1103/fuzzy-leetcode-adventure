@@ -260,6 +260,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february26)
 - [February 27 - Diameter of Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february27)
+- [February 28 - Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february28)
 
 
 [//]: # (- []&#40;&#41;)
