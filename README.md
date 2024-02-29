@@ -262,6 +262,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february27)
 - [February 28 - Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february28)
+- [February 29 - Even Odd Tree](https://leetcode.com/problems/even-odd-tree/description/?envType=daily-question&envId=2024-02-29)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/february/february29)
 
 
 [//]: # (- []&#40;&#41;)
