@@ -3,6 +3,9 @@ package dailyChallenge.year2024.february.february29
 class TreeNode(var `val`: Int) {
     var left: TreeNode? = null
     var right: TreeNode? = null
+    override fun toString(): String {
+        return "TreeNode{val:${`val`}}"
+    }
 }
 
 
@@ -47,34 +50,34 @@ fun traverse(root: TreeNode?, level: Int, nodeMap: MutableMap<Int, MutableList<I
 }
 
 fun main() {
-//    println(
-//        isEvenOddTree(
-//            TreeNode(1).apply {
-//                left = TreeNode(10).apply {
-//                    left = TreeNode(3)
-//                }
-//                right = TreeNode(4).apply {
-//                    left = TreeNode(7)
-//                    right = TreeNode(1)
-//                }
-//            }
-//        )
-//    )
-//    println(
-//        isEvenOddTree(
-//            TreeNode(5).apply {
-//                left = TreeNode(4).apply {
-//                    left = TreeNode(3)
-//                    right = TreeNode(3)
-//                }
-//
-//                right = TreeNode(2).apply {
-//                    left = TreeNode(7)
-//                }
-//
-//            }
-//        )
-//    )
+    println(
+        isEvenOddTree(
+            TreeNode(1).apply {
+                left = TreeNode(10).apply {
+                    left = TreeNode(3)
+                }
+                right = TreeNode(4).apply {
+                    left = TreeNode(7)
+                    right = TreeNode(1)
+                }
+            }
+        )
+    )
+    println(
+        isEvenOddTree(
+            TreeNode(5).apply {
+                left = TreeNode(4).apply {
+                    left = TreeNode(3)
+                    right = TreeNode(3)
+                }
+
+                right = TreeNode(2).apply {
+                    left = TreeNode(7)
+                }
+
+            }
+        )
+    )
     println(
         isEvenOddTree(
             TreeNode(17).apply {
