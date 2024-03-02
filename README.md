@@ -269,6 +269,8 @@
 
 - [March 1 - Maximum Odd Binary Solution](https://leetcode.com/problems/maximum-odd-binary-number/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march1)
+- [March 2 - Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march2)
 
 
 [//]: # (- []&#40;&#41;)
