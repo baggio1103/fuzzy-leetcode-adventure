@@ -273,6 +273,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march2)
 - [March 3 - Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march3)
+- [March 4 - Bag Of Tokens](https://leetcode.com/problems/bag-of-tokens/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march4)
 
 
 [//]: # (- []&#40;&#41;)
