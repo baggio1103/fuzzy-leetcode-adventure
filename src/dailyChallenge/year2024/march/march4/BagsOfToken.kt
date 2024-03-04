@@ -25,36 +25,36 @@ fun bagOfTokensScore(tokens: IntArray, power: Int): Int {
 }
 
 fun main() {
-//    println(
-//        bagOfTokensScore(
-//            intArrayOf(100),
-//            50
-//        )
-//    )
-//    println(
-//        bagOfTokensScore(
-//            intArrayOf(100, 200, 300, 400),
-//            1000
-//        )
-//    )
-//    println(
-//        bagOfTokensScore(
-//            intArrayOf(200, 100),
-//            150
-//        )
-//    )
+    println(
+        bagOfTokensScore(
+            intArrayOf(100),
+            50
+        )
+    )
+    println(
+        bagOfTokensScore(
+            intArrayOf(100, 200, 300, 400),
+            1000
+        )
+    )
+    println(
+        bagOfTokensScore(
+            intArrayOf(200, 100),
+            150
+        )
+    )
     println(
         bagOfTokensScore(
             intArrayOf(100, 200, 300, 400),
             200
         )
     )
-//    println(
-//        bagOfTokensScore(intArrayOf(), 51)
-//    )
-//    println(
-//        bagOfTokensScore(intArrayOf(26), 51)
-//    )
+    println(
+        bagOfTokensScore(intArrayOf(), 51)
+    )
+    println(
+        bagOfTokensScore(intArrayOf(26), 51)
+    )
     println(
         bagOfTokensScore(intArrayOf(90, 59, 95, 58), 45)
     )
