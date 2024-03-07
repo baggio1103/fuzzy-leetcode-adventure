@@ -279,6 +279,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march5)
 - [March 6 - LinkedList Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march6)
+- [March 7 - Middle of The LinkedList](https://leetcode.com/problems/middle-of-the-linked-list/description/?envType=daily-question&envId=2024-03-07)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march7)
 
 
 [//]: # (- []&#40;&#41;)
