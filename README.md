@@ -283,6 +283,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march7)
 - [March 8 - Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march8)
+- [March 9 - Minimum Common Value](https://leetcode.com/problems/minimum-common-value/submissions/1198337031/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march9)
 
 
 [//]: # (- []&#40;&#41;)
