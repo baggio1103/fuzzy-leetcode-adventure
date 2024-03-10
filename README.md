@@ -285,6 +285,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march8)
 - [March 9 - Minimum Common Value](https://leetcode.com/problems/minimum-common-value/submissions/1198337031/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march9)
+- [March 10 - Array Intersection](https://leetcode.com/problems/intersection-of-two-arrays/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march10)
 
 
 [//]: # (- []&#40;&#41;)
