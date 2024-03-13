@@ -291,6 +291,9 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march11)
 - [March 12 - Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/submissions/1201352562/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march12)
+- [March 13 - Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march13)
+
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
