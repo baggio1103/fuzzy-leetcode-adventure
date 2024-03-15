@@ -293,6 +293,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march12)
 - [March 13 - Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march13)
+- [March 15 - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
+  - [Solution](https://leetcode.com/problems/product-of-array-except-self/description/)
 
 
 [//]: # (- []&#40;&#41;)
