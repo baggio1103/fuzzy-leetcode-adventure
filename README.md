@@ -293,8 +293,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march12)
 - [March 13 - Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march13)
+- [March 14 - Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/description/?envType=daily-question&envId=2024-03-14)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march14)
 - [March 15 - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
-  - [Solution](https://leetcode.com/problems/product-of-array-except-self/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march15)
 
 
 [//]: # (- []&#40;&#41;)
