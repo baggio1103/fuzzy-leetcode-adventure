@@ -1,4 +1,4 @@
-package dailyChallenge.year2024.march.march13
+package dailyChallenge.year2024.march.march14
 
 fun numSubarraysWithSum(nums: IntArray, goal: Int): Int {
     var count = 0
@@ -20,9 +20,9 @@ fun main() {
             intArrayOf(1, 0, 1, 0, 1), 2
         )
     )
-//    println(
-//        numSubarraysWithSum(
-//            intArrayOf(0, 0, 0, 0, 0), 0
-//        )
-//    )
+    println(
+        numSubarraysWithSum(
+            intArrayOf(0, 0, 0, 0, 0), 0
+        )
+    )
 }
