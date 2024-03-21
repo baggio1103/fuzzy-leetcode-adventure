@@ -307,6 +307,9 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march19)
 - [March 20 - Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march20)
+- [March 21 - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march21)
+
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
@@ -340,7 +343,6 @@
 
 
 [//]: # (- [Next problem &#40;Pattern&#41;]&#40;&#41;)
-
 [//]: # (  - [Solution]&#40;&#41;)
 
 ---
@@ -352,6 +354,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/ReverseList.kt)
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/AddTwoNumbers.kt)
+- [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march20)
+
+
 ### [Binary Search]()
 - [Basic Binary Search](https://leetcode.com/problems/binary-search/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/BinarySearch.kt)
