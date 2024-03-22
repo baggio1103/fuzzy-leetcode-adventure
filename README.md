@@ -309,6 +309,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march20)
 - [March 21 - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march21)
+- [March 22 - Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march22)
 
 
 [//]: # (- []&#40;&#41;)
