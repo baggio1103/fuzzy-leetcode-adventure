@@ -311,6 +311,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march21)
 - [March 22 - Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march22)
+- [March 23 - Reorder List](https://leetcode.com/problems/reorder-list/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march23)
 
 
 [//]: # (- []&#40;&#41;)
@@ -358,6 +360,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/linkedlist/AddTwoNumbers.kt)
 - [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march20)
+- [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march22)
+- [Reorder List](https://leetcode.com/problems/reorder-list/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march23)
 
 
 ### [Binary Search]()
