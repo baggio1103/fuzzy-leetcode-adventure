@@ -22,17 +22,17 @@ fun main() {
             intArrayOf(1, 2, 3, 4, 2)
         )
     )
-//    println(
-//        findDuplicate(intArrayOf(4, 3, 1, 4, 2))
-//    )
-//    println(
-//        findDuplicate(
-//            intArrayOf(3, 1, 3, 4, 2)
-//        )
-//    )
-//    println(
-//        findDuplicate(
-//            intArrayOf(3, 3, 3)
-//        )
-//    )
+    println(
+        findDuplicate(intArrayOf(4, 3, 1, 4, 2))
+    )
+    println(
+        findDuplicate(
+            intArrayOf(3, 1, 3, 4, 2)
+        )
+    )
+    println(
+        findDuplicate(
+            intArrayOf(3, 3, 3)
+        )
+    )
 }
