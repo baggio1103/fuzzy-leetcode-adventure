@@ -8,7 +8,7 @@ fun findDuplicates(array: IntArray): List<Int> {
         val index = array[i].absoluteValue - 1
         array[index] = -array[index]
         if (array[index] > 0) {
-            list.add(array[i].absoluteValue)
+            list.add(index + 1)
         }
     }
     return list
