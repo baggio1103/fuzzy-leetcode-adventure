@@ -313,8 +313,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march22)
 - [March 23 - Reorder List](https://leetcode.com/problems/reorder-list/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march23)
-- [March 24 - Find Duplicate Numbers](https://leetcode.com/problems/find-the-duplicate-number/)
+- [March 24 - Find Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march24)
+- [March 25 - Find Duplicates](https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/1213378039/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march25)
 
 
 [//]: # (- []&#40;&#41;)
