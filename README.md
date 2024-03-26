@@ -317,6 +317,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march24)
 - [March 25 - Find Duplicates](https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/1213378039/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march25)
+- [March 26 - Find the smallest missing number](https://leetcode.com/problems/first-missing-positive/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march26)
 
 
 [//]: # (- []&#40;&#41;)
