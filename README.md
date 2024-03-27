@@ -319,6 +319,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march25)
 - [March 26 - Find the smallest missing number](https://leetcode.com/problems/first-missing-positive/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march26)
+- [March 27 - Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march27)
 
 
 [//]: # (- []&#40;&#41;)
