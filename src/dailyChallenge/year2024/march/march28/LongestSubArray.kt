@@ -18,7 +18,6 @@ fun maxSubarrayLength(array: IntArray, k: Int): Int {
                 map[array[j]] = decr - 1
                 j++
             }
-            map[value] = count
         }
         maxLength = maxOf(maxLength, i - j + 1)
     }
