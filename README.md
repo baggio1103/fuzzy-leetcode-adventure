@@ -321,6 +321,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march26)
 - [March 27 - Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march27)
+- [March 28 - Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/submissions/1216143459/?envType=daily-question&envId=2024-03-28)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march28)
 
 
 [//]: # (- []&#40;&#41;)
@@ -345,6 +347,11 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/slidingwindow/MaxVowelSubstringNumber.kt)
 - [Assign Cookies](https://leetcode.com/problems/assign-cookies/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/january/january1)
+- [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march27)
+- [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/submissions/1216143459/?envType=daily-question&envId=2024-03-28)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march28)
+
 
 
 ## [Intervals]()
