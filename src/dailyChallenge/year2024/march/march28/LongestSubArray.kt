@@ -9,15 +9,13 @@ fun maxSubarrayLength(array: IntArray, k: Int): Int {
         val value = array[i]
         var count = (map[value] ?: 0) + 1
         map[value] = count
-        if (count > k) {
-            while (count > k && j <= i) {
-                if (array[j] == value) {
-                    count--
-                }
-                val decr = map[array[j]] ?: 0
-                map[array[j]] = decr - 1
-                j++
+        while (count > k) {
+            if (array[j] == value) {
+                count--
             }
+            val decr = map[array[j]] ?: 0
+            map[array[j]] = decr - 1
+            j++
         }
         maxLength = maxOf(maxLength, i - j + 1)
     }
@@ -57,7 +55,7 @@ fun main() {
     )
     println(
         maxSubarrayLength(
-            intArrayOf(1,2,2,1,3),
+            intArrayOf(1, 2, 2, 1, 3),
             1
         )
     )
