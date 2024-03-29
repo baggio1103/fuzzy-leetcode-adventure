@@ -323,6 +323,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march27)
 - [March 28 - Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/submissions/1216143459/?envType=daily-question&envId=2024-03-28)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march28)
+- [March 29 - Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march29)
 
 
 [//]: # (- []&#40;&#41;)
@@ -351,6 +353,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march27)
 - [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/submissions/1216143459/?envType=daily-question&envId=2024-03-28)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march28)
+- [Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march29)
 
 
 
