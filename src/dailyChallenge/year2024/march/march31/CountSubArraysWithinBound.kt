@@ -31,4 +31,11 @@ fun main() {
             5
         )
     )
+    println(
+        countSubArrays(
+            intArrayOf(7, 1, 1, 5, 5, 1),
+            1,
+            5
+        )
+    )
 }
