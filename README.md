@@ -333,6 +333,8 @@
 ### April 2024
 - [April 1 - Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april1)
+- [April 2 - Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april2)
 
 
 [//]: # (- []&#40;&#41;)
