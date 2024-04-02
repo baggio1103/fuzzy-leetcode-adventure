@@ -25,10 +25,9 @@ fun reverseList(head: ListNode?): ListNode? {
     var prev: ListNode? = null
     while (node != null) {
         prev = ListNode(node.`val`).apply { next = prev }
-        if (node.next == null) return prev
         node = node.next
     }
-    return null
+    return prev
 }
 
 fun main() {
