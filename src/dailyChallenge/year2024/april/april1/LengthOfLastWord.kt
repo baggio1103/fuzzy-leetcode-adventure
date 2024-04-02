@@ -1,4 +1,4 @@
-package dailyChallenge.year2024.april
+package dailyChallenge.year2024.april.april1
 
 fun lengthOfLastWord(string: String): Int {
     var index = -1
