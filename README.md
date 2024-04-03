@@ -335,6 +335,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april1)
 - [April 2 - Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april2)
+- [April 3 - Word Search](https://leetcode.com/problems/word-search/description/?envType=daily-question&envId=2024-04-03)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april3)
 
 
 [//]: # (- []&#40;&#41;)
@@ -353,6 +355,13 @@
 - [House robber](https://leetcode.com/problems/house-robber/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dynamicprogramming/fibbonacistyle/HouseRobber.kt)
 ---
+
+## [Backtracking]()
+- [Word Search](https://leetcode.com/problems/word-search/description/?envType=daily-question&envId=2024-04-03)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april3)
+
+---
+
 ## [Sliding Window]()
 - [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
   - [Approach](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/solutions/3610614/easy-implementation-of-sliding-window-algorithm/)
