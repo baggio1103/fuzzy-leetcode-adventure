@@ -4,8 +4,8 @@ import java.util.ArrayDeque
 import kotlin.math.absoluteValue
 
 fun makeGood(string: String): String {
-    val stack = ArrayDeque<Char>().apply { push(string[0]) }
-    for (i in 1 until string.length) {
+    val stack = ArrayDeque<Char>()
+    for (i in string.indices) {
         if (stack.isNotEmpty() &&
             ((stack.peek() - string[i]).absoluteValue == 32)
         ) {
