@@ -339,6 +339,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april3)
 - [April 4 - Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april4)
+- [April 5 - Make The String Great](https://leetcode.com/problems/make-the-string-great/?envType=daily-question&envId=2024-04-05)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april5)
 
 
 [//]: # (- []&#40;&#41;)
@@ -449,6 +451,14 @@
 ### [Sorting]()
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/sorting/MergeInterval.kt)
+
+### [Hard]()
+- [SubArrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march30)
+- [Count SubArrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march31)
+
+
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
