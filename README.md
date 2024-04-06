@@ -341,6 +341,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april4)
 - [April 5 - Make The String Great](https://leetcode.com/problems/make-the-string-great/?envType=daily-question&envId=2024-04-05)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april5)
+- [April 6 - Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april6)
 
 
 [//]: # (- []&#40;&#41;)
