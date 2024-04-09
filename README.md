@@ -347,6 +347,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april7)
 - [April 8 - Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april8)
+- [April 9 - Time To Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april9)
 
 
 [//]: # (- []&#40;&#41;)
