@@ -31,7 +31,7 @@ fun maxLength(array: List<String>): Int {
         words[i] = string
     }
     words.forEach {
-        println("Word: $it, len: ${it.length}")
+        println("WordSearch: $it, len: ${it.length}")
     }
     return words.maxBy { it.length }.length
 }
@@ -53,24 +53,24 @@ fun main() {
             )
         )
     )
-//    println(
-//        maxLength(
-//            listOf("aa", "bb")
-//        )
-//    )
-//    println(
-//        maxLength(
-//            listOf("un", "iq", "ue")
-//        )
-//    )
-//    println(
-//        maxLength(
-//            listOf("cha", "r", "act", "ers")
-//        )
-//    )
-//    println(
-//        maxLength(
-//            listOf("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p")
-//        )
-//    )
+    println(
+        maxLength(
+            listOf("aa", "bb")
+        )
+    )
+    println(
+        maxLength(
+            listOf("un", "iq", "ue")
+        )
+    )
+    println(
+        maxLength(
+            listOf("cha", "r", "act", "ers")
+        )
+    )
+    println(
+        maxLength(
+            listOf("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p")
+        )
+    )
 }
