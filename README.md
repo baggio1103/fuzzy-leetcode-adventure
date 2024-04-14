@@ -353,6 +353,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april10)
 - [April 11 - Remove K Digits](https://leetcode.com/problems/remove-k-digits/description/?envType=daily-question&envId=2024-04-11)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april11)
+- [April 13 - Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/?envType=daily-question&envId=2024-04-13)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april13)
+- [April 14 - Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/?envType=daily-question&envId=2024-04-14)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april14)
 
 
 [//]: # (- []&#40;&#41;)
@@ -398,7 +402,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/slidingwindow/)
 - [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/slidingwindow/LongestSubArrayAfterDeleting.kt)
-  
+
+---
+
+
 ## [Intervals]()
 - [Insert Interval](https://leetcode.com/problems/insert-interval/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march17)
@@ -425,6 +432,7 @@
 - [Reorder List](https://leetcode.com/problems/reorder-list/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march23)
 
+---
 
 ### [Binary Search]()
 - [Basic Binary Search](https://leetcode.com/problems/binary-search/)
@@ -440,9 +448,14 @@
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/FindMinimumInRotatedArray.kt)
 
+---
+
+
 ### [Stack]()
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/queuestack)
+
+---
 
 ### [HashMap || HashTable]()
 - [Two sum](https://leetcode.com/problems/two-sum/description/)
@@ -451,6 +464,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/hashtable/IsAnagram.kt)
 - [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/hashtable/AllAnagramsInString.kt)
+
+---
 
 ### [Bitwise Operations]()
 - [Single Number](https://leetcode.com/problems/single-number/description/)
@@ -465,11 +480,15 @@
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/sorting/MergeInterval.kt)
 
+----
+
 ### [Hard]()
 - [SubArrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march30)
 - [Count SubArrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march31)
+- [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/hard/histogram)
 
 
 
