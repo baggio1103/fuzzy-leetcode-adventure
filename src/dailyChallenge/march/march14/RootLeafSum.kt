@@ -12,18 +12,12 @@ class TreeNode(var value: Int) {
 class RootLeafSum {
 
     fun sumNumbers(node: TreeNode?): Int {
-        if (node == null) {
-            return 0
-        }
-        val left = sumNumbers(node.left.apply {
-            if (this != null) {
-                this.value += 10 * node.value
-            }
+        if (node == null) return 0
+        val left = sumNumbers(node.left?.apply {
+            value += 10 * node.value
         })
-        val right = sumNumbers(node.right.apply {
-            if (this != null) {
-                this.value += 10 * node.value
-            }
+        val right = sumNumbers(node.right?.apply {
+            value += 10 * node.value
         })
         return if (left == 0 && right == 0) node.value else left + right
     }
