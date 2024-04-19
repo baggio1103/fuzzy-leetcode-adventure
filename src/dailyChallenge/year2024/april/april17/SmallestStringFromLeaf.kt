@@ -1,4 +1,4 @@
-package dailyChallenge.year2024.april.april17.tailrec
+package dailyChallenge.year2024.april.april17
 
 class TreeNode(var `val`: Int) {
     var left: TreeNode? = null
@@ -11,15 +11,35 @@ class TreeNode(var `val`: Int) {
 val map = ('a'..'z').mapIndexed { index, char -> Pair(index, char) }.toMap()
 
 fun smallestFromLeaf(root: TreeNode?): String {
-    if (root == null) return ""
-    val leftSubtree = smallestFromLeaf(root.left)
-    val rightSubtree = smallestFromLeaf(root.right)
-    val currentChar = map[root.`val`] ?: throw IllegalArgumentException()
-    return when {
-        leftSubtree.isEmpty() -> rightSubtree + currentChar
-        rightSubtree.isEmpty() -> leftSubtree + currentChar
-        else -> minOf(leftSubtree + currentChar, rightSubtree + currentChar)
+    var smallestString: String? = null
+    fun traverse(root: TreeNode?, string: String) {
+        val currentSmallest = smallestString
+        if (root == null) {
+            smallestString = if (currentSmallest == null) string else minOf(currentSmallest, string)
+            return
+        }
+        val char = map[root.`val`] ?: throw IllegalArgumentException()
+        when {
+            root.left != null && root.right != null -> {
+                traverse(root.left, char + string)
+                traverse(root.right, char + string)
+            }
+
+            root.left == null && root.right == null -> {
+                smallestString = if (currentSmallest == null) char + string else minOf(currentSmallest, char + string)
+            }
+
+            root.left != null && root.right == null -> {
+                traverse(root.left, char + string)
+            }
+
+            else -> {
+                traverse(root.right, char + string)
+            }
+        }
     }
+    traverse(root, "")
+    return smallestString ?: ""
 }
 
 fun main() {
@@ -33,7 +53,8 @@ fun main() {
     println(
         smallestFromLeaf(
             TreeNode(4).apply {
-                left = TreeNode(0).apply { left = TreeNode(1) }
+                left = TreeNode(0)
+                    .apply { left = TreeNode(1) }
                 right = TreeNode(1)
             }
         )
