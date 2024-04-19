@@ -361,9 +361,12 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april15)
 - [April 16 - Add One Row To Tree](https://leetcode.com/problems/add-one-row-to-tree/description/?envType=daily-question&envId=2024-04-16)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april16)
+- [April 17 - Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/?envType=daily-question&envId=2024-04-17)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april17)
 - [April 18 - Island Perimeter](https://leetcode.com/problems/island-perimeter/?envType=daily-question&envId=2024-04-18)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april18)
-
+- [April 19 - Number of Islands](https://leetcode.com/problems/number-of-islands/description/?envType=daily-question&envId=2024-04-19)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/april/april19)
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
