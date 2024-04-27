@@ -5,11 +5,11 @@ class DisjointSetUnion(
 ) {
 
     fun union(x: Int, y: Int) {
-        array[y] = array[x]
+        array[find(y)] = find(array[x])
     }
 
-    // returns parent of x
-    fun find(x: Int): Int {
+    // returns parent of representative of x
+    private fun find(x: Int): Int {
         if (x == array[x]) {
             return x
         }
@@ -21,19 +21,3 @@ class DisjointSetUnion(
     }
 
 }
-
-fun main() {
-    val nodes = intArrayOf(0, 1, 2, 3, 4, 5)
-    val dsu = DisjointSetUnion(nodes)
-    dsu.union(0, 1)
-    println(
-        nodes.asList()
-    )
-    println(
-        dsu.isConnected(0, 1)
-    )
-    println(
-        dsu.isConnected(0, 5)
-    )
-}
-
