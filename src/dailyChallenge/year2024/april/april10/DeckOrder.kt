@@ -3,10 +3,10 @@ package dailyChallenge.year2024.april.april10
 import java.util.ArrayDeque
 
 fun deckRevealedIncreasing(deck: IntArray): IntArray {
-    val queue = ArrayDeque<Int>()
-    for (i in deck.indices) queue.offer(i)
-    deck.sort()
     val result = IntArray(deck.size)
+    deck.sort()
+    val queue = ArrayDeque<Int>()
+    deck.indices.forEach { queue.offer(it) }
     for (i in deck.indices) {
         result[queue.poll()] = deck[i]
         if (queue.isNotEmpty()) queue.offer(queue.poll())
