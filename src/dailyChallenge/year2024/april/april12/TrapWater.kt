@@ -8,14 +8,15 @@ fun trap(height: IntArray): Int {
     var result = 0
     while (left < right) {
         if (height[left] < height[right]) {
-            if (height[left] >= leftMax) {
+            if (height[left] > leftMax) {
                 leftMax = height[left]
             } else result += leftMax - height[left]
             left++
         } else {
-            if (height[right] >= rightMax) {
+            if (height[right] > rightMax) {
                 rightMax = height[right]
-            } else result += rightMax - height[right]
+            } else
+                result += rightMax - height[right]
             right--
         }
     }
@@ -25,18 +26,21 @@ fun trap(height: IntArray): Int {
 fun main() {
     println(
         trap(
-            height = intArrayOf(0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1)
+            intArrayOf(3, 2, 0, 4)
         )
     )
     println(
         trap(
-            height = intArrayOf(4, 2, 0, 3, 2, 5)
+            intArrayOf(
+                0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1
+            )
         )
     )
     println(
         trap(
-            height = intArrayOf(4, 2, 0, 3, 2, 5, 7)
+            intArrayOf(
+                4, 2, 0, 3, 2, 5
+            )
         )
     )
-
 }
