@@ -19,26 +19,12 @@ fun compareVersionTwoPointer(versionOne: String, versionTwo: String): Int {
         i++
         j++
     }
-    if (i == versionOne.length && j == versionTwo.length) return 0
-    var remainder = 0
     while (i < versionOne.length) {
-        if (versionOne[i] == '.') {
-            remainder = 0
-            i++
-            continue
-        }
-        remainder += 10 * remainder + (versionOne[i] - '0')
-        if (remainder > 0) return 1
+        if (versionOne[i] != '.' && versionOne[i] - '0' > 0) return 1
         i++
     }
     while (j < versionTwo.length) {
-        if (versionTwo[j] == '.') {
-            remainder = 0
-            j++
-            continue
-        }
-        remainder += 10 * remainder + (versionTwo[j] - '0')
-        if (remainder > 0) return -1
+        if (versionTwo[j] != '.' && versionTwo[j] - '0' > 0) return -1
         j++
     }
     return 0
