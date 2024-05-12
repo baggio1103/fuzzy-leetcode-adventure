@@ -2,19 +2,12 @@ package dailyChallenge.year2024.may.may12
 
 fun largestLocal(grid: Array<IntArray>): Array<IntArray> {
     val matrix = Array(grid.size - 2) { IntArray(grid.size - 2) }
-    println("Hello world")
     for (i in 0 until grid.size - 2) {
         for (j in 0 until grid[i].size - 2) {
             matrix[i][j] = maxOf(
-                grid[i][j],
-                grid[i][j + 1],
-                grid[i][j + 2],
-                grid[i + 1][j],
-                grid[i + 1][j + 1],
-                grid[i + 1][j + 2],
-                grid[i + 2][j],
-                grid[i + 2][j + 1],
-                grid[i + 2][j + 2],
+                grid[i][j], grid[i][j + 1], grid[i][j + 2],
+                grid[i + 1][j], grid[i + 1][j + 1], grid[i + 1][j + 2],
+                grid[i + 2][j], grid[i + 2][j + 1], grid[i + 2][j + 2],
             )
         }
     }
