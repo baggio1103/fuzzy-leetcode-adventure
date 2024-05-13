@@ -1,4 +1,4 @@
-package dailyChallenge.year2024.may.may12
+package dailyChallenge.year2024.may.may13
 
 import kotlin.math.pow
 
@@ -16,8 +16,7 @@ import kotlin.math.pow
 fun matrixScore(grid: Array<IntArray>): Int {
     for (i in grid.indices) {
         val row = grid[i]
-        val index = row.indexOfFirst { it == 1 }
-        if (index == -1 || index > 0) {
+        if (row[0] != 1) {
             for ((j, value) in row.withIndex()) {
                 if (value == 0) {
                     row[j] = 1
