@@ -2,6 +2,9 @@ package dailyChallenge.year2024.may.may12
 
 import kotlin.math.pow
 
+// First maximize rows
+// Second maximize columns
+
 // 1, 1, 0, 0
 // 1, 0, 1, 0
 // 1, 1, 0, 0
