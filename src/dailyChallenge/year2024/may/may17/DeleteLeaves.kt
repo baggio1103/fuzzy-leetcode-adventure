@@ -11,22 +11,12 @@ class TreeNode(var `val`: Int) {
 }
 
 fun removeLeafNodes(root: TreeNode?, target: Int): TreeNode? {
-    fun traverseAndRemove(root: TreeNode?, target: Int): Boolean {
-        if (root == null) return false
-        if (root.left == null && root.right == null && root.`val` == target) {
-            return true
-        }
-        val leftSubtree = traverseAndRemove(root.left, target)
-        if (leftSubtree) {
-            root.left = null
-        }
-        val rightSubtree = traverseAndRemove(root.right, target)
-        if (rightSubtree) {
-            root.right = null
-        }
-        return root.left == null && root.right == null && root.`val` == target
-    }
-    return if (traverseAndRemove(root, target)) null else root
+    if (root == null) return null
+    root.left = removeLeafNodes(root.left, target)
+    root.right = removeLeafNodes(root.right, target)
+    return if (root.left == null && root.right == null && root.`val` == target) {
+         null
+    } else root
 }
 
 fun traverse(root: TreeNode?) {
