@@ -1,11 +1,12 @@
 package dailyChallenge.year2024.may.may21
 
 fun subsets(nums: IntArray): List<List<Int>> {
-
+    val result = mutableListOf<List<Int>>()
+    result.add(emptyList())
     fun recursive(index: Int, acc: MutableList<Int>) {
         if (index >= nums.size) return
         acc.add(nums[index])
-        println(acc)
+        result.add(acc)
         (index + 1 until  nums.size).forEach {
             recursive(it, acc.toMutableList())
         }
@@ -13,7 +14,7 @@ fun subsets(nums: IntArray): List<List<Int>> {
     nums.indices.forEach {
         recursive(it, mutableListOf())
     }
-    return emptyList()
+    return result
 }
 
 fun main() {
