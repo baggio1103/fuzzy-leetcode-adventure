@@ -5,13 +5,15 @@ import java.util.PriorityQueue
 fun main() {
     println(
         longestDiverseString(
-            7, 1, 0
+            3, 3, 0
         )
     )
 }
 
 fun longestDiverseString(a: Int, b: Int, c: Int): String = buildString {
-    val queue = PriorityQueue(compareBy<Pair<Int, Char>> { it.first }.reversed())
+    val queue = PriorityQueue<Pair<Int, Char>>(
+        compareByDescending { it.first }
+    )
     if (a > 0) queue.add(Pair(a, 'a'))
     if (b > 0) queue.add(Pair(b, 'b'))
     if (c > 0) queue.add(Pair(c, 'c'))
