@@ -13,6 +13,12 @@ fun main() {
             arrayOf(intArrayOf(0, 2), intArrayOf(1, 4), intArrayOf(2, 4))
         ).contentToString()
     )
+    println(
+        vowelStrings(
+            arrayOf("ab", "aba", "ece", "aa", "e"),
+            arrayOf(intArrayOf(0, 2), intArrayOf(1, 4), intArrayOf(2, 4))
+        ).contentToString()
+    )
 }
 
 fun vowelStrings(words: Array<String>, queries: Array<IntArray>): IntArray {
