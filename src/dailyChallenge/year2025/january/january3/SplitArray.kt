@@ -13,8 +13,8 @@ fun main() {
 }
 
 fun waysToSplitArray(nums: IntArray): Int {
-    val sumArray = IntArray(nums.size)
-    sumArray[0] = nums[0]
+    val sumArray = LongArray(nums.size)
+    sumArray[0] = nums[0].toLong()
     for (i in 1 until nums.size) {
         sumArray[i] = nums[i] + sumArray[i - 1]
     }
@@ -25,4 +25,3 @@ fun waysToSplitArray(nums: IntArray): Int {
     }
     return count
 }
-
