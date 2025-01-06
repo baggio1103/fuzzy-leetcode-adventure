@@ -2,12 +2,21 @@ package dailyChallenge.year2025.january.january5
 
 fun main() {
     println(
-        'a' - 'z'
+        shiftingLetters(
+            string = "abxka",
+            shifts = arrayOf(intArrayOf(2, 3, 1))
+        )
     )
     println(
         shiftingLetters(
             string = "abxka",
             shifts = arrayOf(intArrayOf(2, 3, 1), intArrayOf(0, 2, 0), intArrayOf(1, 4, 0)),
+        )
+    )
+    println(
+        shiftingLetters(
+            string = "abxka",
+            shifts = arrayOf(intArrayOf(2, 3, 1), intArrayOf(0, 2, 0)),
         )
     )
 }
