@@ -10,15 +10,11 @@ fun main() {
 }
 
 fun xorAllNums(arrayOne: IntArray, arrayTwo: IntArray): Int {
-    val result = IntArray(arrayOne.size * arrayTwo.size)
     var i = 0
     arrayOne.forEach { numOne ->
         arrayTwo.forEach { numTwo ->
-            result[i] = numOne xor numTwo
-            i++
+            i = i xor numOne xor numTwo
         }
     }
-    return result.fold(0) {
-        a, b -> a xor b
-    }
+    return i
 }
