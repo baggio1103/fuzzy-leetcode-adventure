@@ -508,6 +508,14 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january3)
 ----
 
+## [Graphs](https://leetcode.com/studyplan/dynamic-programming/)
+- [1267. Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/?envType=daily-question&envId=2025-01-23)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january23)
+- [2658. Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/?envType=daily-question&envId=2025-01-28)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january28)
+- [1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/?envType=daily-question&envId=2025-01-27)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january27)
+
 
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
@@ -531,6 +539,13 @@
 ### [Leetcode Favourites]()
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/leetcodefavorites/bst/IsBST.kt)
+- [1267. Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/description/?envType=daily-question&envId=2025-01-23)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january23)
+- [2658. Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/?envType=daily-question&envId=2025-01-28)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january28)
+- [1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/?envType=daily-question&envId=2025-01-27)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january27)
+
 
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march15)
