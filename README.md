@@ -517,6 +517,10 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january27)
 
 
+## [Disjoint Set Union]()
+- [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/?envType=daily-question&envId=2025-01-29)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january29)
+
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
 
@@ -545,6 +549,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january28)
 - [1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/?envType=daily-question&envId=2025-01-27)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january27)
+- [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/?envType=daily-question&envId=2025-01-29)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january29)
 
 
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
