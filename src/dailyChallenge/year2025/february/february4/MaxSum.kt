@@ -4,7 +4,9 @@ fun main() {
     println(
         maxAscendingSum(intArrayOf(10, 20, 30, 5, 10, 50))
     )
-    println(maxAscendingSum(intArrayOf(3, 6, 10, 1, 8, 9, 9, 8, 9)))
+    println(
+        maxAscendingSum(intArrayOf(3, 6, 10, 1, 8, 9, 9, 8, 9))
+    )
 }
 
 fun maxAscendingSum(array: IntArray): Int {
