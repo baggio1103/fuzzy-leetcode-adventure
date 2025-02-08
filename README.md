@@ -538,6 +538,9 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/designProblems/stack/MaxStack.kt)
 - [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/dailyChallenge/december/december17/FoodRatingSystem.kt)
+- [Number Container System](https://leetcode.com/problems/design-a-number-container-system/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/february/february8)
+
 
 ---
 ### [Leetcode Favourites]()
