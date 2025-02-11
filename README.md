@@ -465,6 +465,9 @@
 ### [Stack]()
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/queuestack)
+- [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/february/february11)
+
 
 ---
 
