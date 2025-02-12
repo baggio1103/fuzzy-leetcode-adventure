@@ -20,7 +20,7 @@ fun removeOccurrences(string: String, part: String): String {
         }
     }
     return buildString {
-        while (stack.isNotEmpty()) append(stack.pop())
+        repeat(stack.size) { stack.pop() }
     }.reversed()
 }
 
