@@ -3,11 +3,14 @@ package dailyChallenge.year2025.february.february13
 import java.util.*
 
 fun main() {
-//    println(
-//        minOperations(intArrayOf(2, 11, 10, 1, 3), 10)
-//    )
     println(
-        minOperations(intArrayOf(1000000000, 999999999, 1000000000, 999999999, 1000000000, 999999999), 1000000000)
+        minOperations(intArrayOf(2, 11, 10, 1, 3), 10)
+    )
+    println(
+        minOperations(
+            intArrayOf(1000000000, 999999999, 1000000000, 999999999, 1000000000, 999999999),
+            1000000000
+        )
     )
 }
 
