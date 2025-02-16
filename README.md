@@ -557,6 +557,8 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january27)
 - [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/?envType=daily-question&envId=2025-01-29)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january29)
+- [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/description/?envType=daily-question&envId=2025-02-15)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/february/february15)
 
 
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
