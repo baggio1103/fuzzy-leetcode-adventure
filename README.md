@@ -524,6 +524,10 @@
 - [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/?envType=daily-question&envId=2025-01-29)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/january/january29)
 
+## [Binary Tree]()
+- [1261. Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/?envType=daily-question&envId=2025-02-21)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/february/february21)
+
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
 
