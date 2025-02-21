@@ -9,10 +9,12 @@ fun main() {
         }
         right = TreeNode(-1)
     }
-    println(node)
     val findElements = FindElements(node)
-    println(findElements)
-
+    check(!findElements.find(15))
+    check(findElements.find(1))
+    check(findElements.find(2))
+    check(findElements.find(3))
+    check(findElements.find(4))
 }
 
 class TreeNode(var `val`: Int) {
@@ -38,7 +40,7 @@ class FindElements(private val root: TreeNode?) {
         fun search(node: TreeNode?): Boolean {
             if (node == null) return false
             if (node.`val` == target) return true
-            return search(node.left) && search(node.right)
+            return search(node.left) || search(node.right)
         }
         return search(root)
     }
