@@ -530,6 +530,8 @@
 - [1028. Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/february/february22)
 
+### [Hard]()
+
 [//]: # (- []&#40;&#41;)
 [//]: # (  - [Solution]&#40;&#41;)
 
@@ -579,3 +581,6 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march18)
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2024/march/march19)
+
+### [Non-Solved]()
+- [Most Profitable Path in a tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/description/)
