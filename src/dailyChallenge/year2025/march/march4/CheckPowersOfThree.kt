@@ -1,4 +1,4 @@
-package dailyChallenge.year2025.march
+package dailyChallenge.year2025.march.march4
 
 import kotlin.math.pow
 
@@ -16,10 +16,9 @@ fun main() {
 // 28, 30, 36
 // 27 + 3 + 1
 
-private const val base = 3.0
-
 fun checkPowersOfThree(n: Int): Boolean {
     // calculate upper power
+    val base = 3.0
     val power = (0..16).first { pow -> base.pow(pow) >= n }
     if (base.pow(power).toInt() == n) return true
 
