@@ -1,11 +1,27 @@
 package dailyChallenge.year2025.march.march3
 
 fun pivotArray(array: IntArray, pivot: Int): IntArray {
-    val list = mutableListOf<Int>()
-    array.forEach { value -> if (value < pivot) list.add(value) }
-    array.forEach { value -> if (value == pivot) list.add(value) }
-    array.forEach { value -> if (value > pivot) list.add(value) }
-    return list.toIntArray()
+    val resultArray = IntArray(array.size)
+    var index = 0
+    array.forEach { value ->
+        if (value < pivot) {
+            resultArray[index] = value
+            index++
+        }
+    }
+    array.forEach { value ->
+        if (value == pivot) {
+            resultArray[index] = value
+            index++
+        }
+    }
+    array.forEach { value ->
+        if (value > pivot) {
+            resultArray[index] = value
+            index++
+        }
+    }
+    return resultArray
 }
 
 fun main() {
