@@ -458,6 +458,11 @@
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/BinarySearchRotatedII.kt)
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
   - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/blob/main/src/binarysearch/FindMinimumInRotatedArray.kt)
+- [2226. Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/?envType=daily-question&envId=2025-03-14)
+  - [Solution](https://github.com/baggio1103/fuzzy-leetcode-adventure/tree/main/src/dailyChallenge/year2025/march/march14)
+
+- []()
+  - [Solution]()
 
 ---
 
