@@ -61,9 +61,7 @@ object RepairCarsBinarySearch {
                 val amount = sqrt((middle / rank).toDouble()).toLong()
                 count += amount * mechanicCount
             }
-            if (count >= cars) high = middle else {
-                low = middle + 1
-            }
+            if (count >= cars) high = middle else low = middle + 1
         }
         return low
     }
