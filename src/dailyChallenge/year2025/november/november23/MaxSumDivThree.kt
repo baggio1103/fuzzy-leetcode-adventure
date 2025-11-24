@@ -8,15 +8,15 @@ fun main() {
     println(
         maxSumDivThree(intArrayOf(4)) // 0
     )
-//    println(
-//        maxSumDivThree(intArrayOf(1, 2, 3, 4, 4)) // 12
-//    )
-//    println(
-//        maxSumDivThree(intArrayOf(2, 6, 2, 2, 7)) // 15
-//    )
-//    println(
-//        maxSumDivThree(intArrayOf(5, 2, 2, 2))
-//    )
+    println(
+        maxSumDivThree(intArrayOf(1, 2, 3, 4, 4)) // 12
+    )
+    println(
+        maxSumDivThree(intArrayOf(2, 6, 2, 2, 7)) // 15
+    )
+    println(
+        maxSumDivThree(intArrayOf(5, 2, 2, 2))
+    )
     println(
         maxSumDivThree(intArrayOf(3, 1, 2))
     )
