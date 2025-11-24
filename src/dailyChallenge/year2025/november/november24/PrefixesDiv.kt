@@ -1,13 +1,11 @@
 package dailyChallenge.year2025.november.november24
 
-import java.math.BigInteger
-
 fun main() {
-//    println(
-//        prefixesDivBy5(
-//            intArrayOf(0, 1, 1)
-//        )
-//    )
+    println(
+        prefixesDivBy5(
+            intArrayOf(0, 1, 1)
+        )
+    )
     println(
         prefixesDivBy5(
             intArrayOf(1, 1, 1)
