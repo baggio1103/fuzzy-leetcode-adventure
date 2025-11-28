@@ -27,14 +27,11 @@ fun numberOfPaths(grid: Array<IntArray>, k: Int): Int {
         if (i == row - 1 && j == column - 1)
             return if (newR == 0) 1 else 0
 
-        if (dp[i][j][newR] != -1)
-            return dp[i][j][newR]
+        if (dp[i][j][newR] != -1) return dp[i][j][newR]
 
-        val ways = (dfs(i + 1, j, newR) +
-                    dfs(i, j + 1, newR)) % mod
-
+        val ways = (dfs(i + 1, j, newR) + dfs(i, j + 1, newR)) % mod
         dp[i][j][newR] = ways
-        return dp[i][j][newR]
+        return ways
     }
 
     return dfs(0, 0, 0)
