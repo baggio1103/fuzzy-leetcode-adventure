@@ -42,8 +42,7 @@ fun subtreeWithAllDeepest(root: TreeNode?): TreeNode? {
             else -> ld + 1 to node
         }
     }
-    val (_, node) = traverse(root)
-    return node
+    return traverse(root).second
 }
 
 //fun subtreeWithAllDeepest(root: TreeNode?): TreeNode? {
@@ -76,12 +75,3 @@ fun subtreeWithAllDeepest(root: TreeNode?): TreeNode? {
 //    return deepestNodes.firstOrNull()
 //}
 //
-
-
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-    override fun toString(): String {
-        return "TreeNode[$`val``, left: ${left?.`val`}, right: ${right?.`val`}`]"
-    }
-}
