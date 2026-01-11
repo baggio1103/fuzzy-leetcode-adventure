@@ -3,19 +3,18 @@ package dailyChallenge.year2026.january.january11
 import java.util.Stack
 
 fun main() {
-//    println(
-//        maximalRectangle(
-//            matrix = arrayOf(
-//                charArrayOf('1', '0', '1', '0', '0'),
-//                charArrayOf('1', '0', '1', '1', '1'),
-//                charArrayOf('1', '1', '1', '1', '1'),
-//                charArrayOf('1', '0', '0', '1', '0'),
-//            )
-//        )
-//    )
-
-//    println(largestArea(intArrayOf(3, 1, 3, 2, 2, 0)))
-//    println(largestArea(intArrayOf(2, 1, 5, 6, 2, 0)))
+    println(
+        maximalRectangle(
+            matrix = arrayOf(
+                charArrayOf('1', '0', '1', '0', '0'),
+                charArrayOf('1', '0', '1', '1', '1'),
+                charArrayOf('1', '1', '1', '1', '1'),
+                charArrayOf('1', '0', '0', '1', '0'),
+            )
+        )
+    )
+    println(largestArea(intArrayOf(3, 1, 3, 2, 2, 0)))
+    println(largestArea(intArrayOf(2, 1, 5, 6, 2, 0)))
     println(largestArea(intArrayOf(3, 0, 2, 2, 0)))
 }
 
