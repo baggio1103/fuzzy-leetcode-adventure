@@ -1,7 +1,6 @@
 package dailyChallenge.year2026.january.january12
 
 import kotlin.math.abs
-import kotlin.math.absoluteValue
 
 fun main() {
     println(
