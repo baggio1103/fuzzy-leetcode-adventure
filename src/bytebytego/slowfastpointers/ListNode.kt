@@ -1,4 +1,4 @@
-package bytebytego.linkedlist
+package bytebytego.slowfastpointers
 
 class ListNode(var `val`: Int) {
     var next: ListNode? = null
